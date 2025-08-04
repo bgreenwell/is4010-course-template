@@ -1,0 +1,48 @@
+Of course. Here are the specifications for the midterm project.
+# Midterm project: data-driven python application
+
+## Objective
+The goal of this midterm project is to apply all the concepts from the first half of the course to build a complete, data-driven python application. You will demonstrate your ability to structure a program using functions and classes, consume and process data from an external source, handle errors gracefully, and partner with AI tools to improve your development workflow.
+
+***
+## Core requirements
+Your project must be a command-line interface (cli) application that does the following:
+
+* **Consumes external data**: Your application's primary data source must be one of the following:
+    * A public web api of your choice.
+    * A local data file that you provide (e.g., a `.csv` or `.json` file).
+* **Models data with classes**: You must create at least one custom python class to model the data you are working with (e.g., a `WeatherReport` class, a `Pokemon` class, etc.). This class should contain the relevant attributes from your data source.
+* **Processes data**: Your application must perform some meaningful processing on the data. This could include filtering for specific criteria, performing calculations, or sorting the results.
+* **Presents data**: The final processed data must be presented to the user in a clean, human-readable format in the terminal.
+* **Handles errors**: Your code must include `try...except` blocks to gracefully handle potential runtime errors, such as failed api requests, missing files, or unexpected data formats.
+
+***
+## Technical stack
+Your project must be built using python and incorporate the following concepts we have covered:
+
+* **Functions**: Code must be organized into logical, single-purpose functions.
+* **Object-oriented programming**: You must use a custom `class` to model your data.
+* **External libraries**: You must use at least one external python library (e.g., `requests` for apis). Dependencies should be listed in a `requirements.txt` file.
+* **Error handling**: `try...except` blocks must be used to prevent the application from crashing.
+
+***
+## AI partnership
+The use of AI tools like github copilot and gemini is not only permitted but **highly encouraged**. You should use these tools for brainstorming ideas, generating boilerplate code, refactoring, and debugging. A portion of your grade will be based on your reflection of this process.
+
+***
+## Deliverables
+Your final submission will consist of a private github repository containing the following:
+
+1.  All of your python source code.
+2.  A `requirements.txt` file listing any external libraries needed to run your project.
+3.  A detailed `README.md` file that includes:
+    * A description of your application and what it does.
+    * Instructions on how to set up and run your project.
+4.  A `REFLECTION.md` file that documents how you used AI tools in your development process. You should describe what you used the AI for and provide at least two examples of prompts that led to a helpful outcome.
+
+***
+## Timeline
+
+* **Project kickoff**: Week 8, session 15.
+* **In-class workshops**: Week 8, sessions 15 & 16.
+* **Due date**: Your project is due at the start of class in **Week 9, Session 18**. We will have a low-pressure "show and tell" for volunteers during this session.

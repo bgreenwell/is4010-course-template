@@ -1,0 +1,52 @@
+# A gitignore file specifies intentionally untracked files that Git should ignore.
+# This is a standard practice for all professional software projects.
+
+# Python
+# --------
+# Ignore the directory for compiled bytecode and caches
+__pycache__/
+
+# Ignore compiled python files
+*.pyc
+
+# Ignore virtual environment folders, which are local to each developer
+/venv/
+/.venv/
+/env/
+
+# Ignore package metadata
+*.egg-info/
+
+
+# Rust
+# ----
+# Ignore the build artifact directory. This can get very large!
+/target/
+
+
+# Common IDE and Editor configuration
+# -----------------------------------
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (PyCharm, CLion, etc.)
+.idea/
+
+
+# OS-specific files
+# -----------------
+# macOS
+.DS_Store
+.AppleDouble
+
+# Windows
+Thumbs.db
+
+
+# Course-Specific Solution Files
+# ------------------------------
+# This pattern ensures any solution files you have in your master
+# repository are ignored if students create files with similar names.
+*_solution.py
+*_solution/
+
