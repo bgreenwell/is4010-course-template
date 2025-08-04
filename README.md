@@ -1,9 +1,3 @@
----
-format: 
-  html:
-    self-contained: true
----
-
 # IS4010: AI-Enhanced Application Development
 
 Hey everyone, and welcome to IS4010! This GitHub repository is your central hub for all code, labs, resources, and project submissions for the course. Please clone this repository, and be sure to pull frequently for updates.

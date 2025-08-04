@@ -1,9 +1,3 @@
----
-format: 
-  html:
-    self-contained: true
----
-
 # IS4010 Setup Guide
 
 Welcome to IS4010! This guide provides step-by-step instructions for setting up your computer with all the necessary tools for this course. Please follow these instructions carefully. If you run into any issues, please ask for help in our class teams channel.
