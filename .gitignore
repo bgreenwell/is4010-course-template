@@ -50,3 +50,7 @@ Thumbs.db
 *_solution.py
 *_solution/
 
+# Miscellaneous
+*.html
+*_files/
+
