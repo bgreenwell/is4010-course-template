@@ -36,15 +36,15 @@ This repository is organized to make finding what you need simple.
 
 This is a high-level overview of our journey this semester. A more detailed schedule is available on canvas.
 
-| Week | Module | Topic |
-| :--- | :--- | :--- |
-| Weeks 1-2 | Foundations & modern tooling | Git, GitHub, and our AI code assistants (copilot & gemini) |
-| Weeks 3-6 | Python fundamentals w/ AI | Python basics, data structures, and OOP |
-| Weeks 7-9 | Building a python application | APIs, data handling, and the midterm project |
-| Weeks 10-12| New frontiers: rust | Rust fundamentals, ownership, and a CLI app |
-| Week 13| Final project workshop | Collaborative work session and MVP check-ins |
-| Week 14 | Final project polish | Presentation dry-runs and peer feedback |
-| Exam week | Demo day! | Final project presentations |
+| Week | Module | Topic | Slides |
+| :--- | :--- | :--- | :--- |
+| Weeks 1-2 | Foundations & modern tooling | Git, GitHub, and our AI code assistants (copilot & gemini) | [W01\_Introduction](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W01_Introduction.html#/title-slide), [W02\_AI\_Copilots](https://www.google.com/search?q=https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W02_AI_Copilots.html%23/title-slide) |
+| Weeks 3-6 | Python fundamentals w/ AI | Python basics, data structures, and OOP | [W03\_Python\_Basics](https://www.google.com/search?q=https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W03_Python_Basics.html%23/title-slide), [W04\_Data\_Structures](https://www.google.com/search?q=https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W04_Data_Structures.html%23/title-slide), [W05\_Functions\_and\_Errors](https://www.google.com/search?q=https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W05_Functions_and_Errors.html%23/title-slide), [W06\_OOP](https://www.google.com/search?q=https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W06_OOP.html%23/title-slide) |
+| Weeks 7-9 | Building a python application | APIs, data handling, and the midterm project | [W07\_Working\_with\_Data](https://www.google.com/search?q=https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W07_Working_with_Data.html%23/title-slide) |
+| Weeks 10-12| New frontiers: rust | Rust fundamentals, ownership, and a CLI app | [W10\_Welcome\_to\_Rust](https://www.google.com/search?q=https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W10_Welcome_to_Rust.html%23/title-slide), [W11\_The\_Soul\_of\_Rust](https://www.google.com/search?q=https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W11_The_Soul_of_Rust.html%23/title-slide), [W12\_Building\_a\_CLI\_App\_in\_Rust](https://www.google.com/search?q=https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W12_Building_a_CLI_App_in_Rust.html%23/title-slide) |
+| Week 13| Final project workshop | Collaborative work session and MVP check-ins | (Project workshop) |
+| Week 14 | Final project polish | Presentation dry-runs and peer feedback | (Project workshop) |
+| Exam week | Demo day\! | Final project presentations | (Presentations) |
 
 ## 🤖 Our AI policy: a quick reminder
 
