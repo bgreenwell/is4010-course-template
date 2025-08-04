@@ -1,9 +1,3 @@
----
-format: 
-  html:
-    self-contained: true
----
-
 # Lab 02: AI-Assisted Development
 
 ## Objective

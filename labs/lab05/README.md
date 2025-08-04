@@ -1,4 +1,3 @@
-Here are the instructions for Lab 05.
 # Lab 05: functions and error handling
 
 ## Objective

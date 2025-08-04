@@ -1,8 +1,3 @@
----
-format: 
-  html:
-    self-contained: true
----
 # Lab 01: Git and github fundamentals
 
 ## Objective
