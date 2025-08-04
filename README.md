@@ -1,5 +1,9 @@
 # IS4010: AI-Enhanced Application Development
 
+![Languages](https://img.shields.io/badge/languages-Python%20%7C%20Rust-blue.svg)
+![AI Augmented](https://img.shields.io/badge/AI-Augmented-blueviolet.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Hey everyone, and welcome to IS4010! This GitHub repository is your central hub for all code, labs, resources, and project submissions for the course. Please clone this repository, and be sure to pull frequently for updates.
 
 ## Course description
