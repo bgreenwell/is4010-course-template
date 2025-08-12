@@ -45,7 +45,7 @@ Upon successful completion of this course, the learner will be able to:
     *   [The Rust programming language toolchain](https://www.rust-lang.org/tools/install)
     *   [GitHub Copilot](https://github.com/features/copilot) (available for free via the [GitHub Student Developer Pack](https://education.github.com/pack))
 *   **Optional tools**:
-    *   [Gemini CLI](https://ai.google.dev/gemini-api/docs/ai-studio-quickstart) (Google's AI assistant for terminal-based development)
+    *   [Gemini CLI](https://github.com/google-gemini/gemini-cli) (Google's AI assistant for terminal-based development)
 
 ## Instructional methods
 
