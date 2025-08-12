@@ -44,6 +44,8 @@ Upon successful completion of this course, the learner will be able to:
     *   Python 3.10+
     *   The Rust programming language toolchain
     *   GitHub Copilot (available for free via the GitHub Student Developer Pack)
+*   **Optional tools**:
+    *   Gemini CLI (Google's AI assistant for terminal-based development)
 
 ## Instructional methods
 
