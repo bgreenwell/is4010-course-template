@@ -4,6 +4,18 @@ Welcome to IS4010! This guide provides step-by-step instructions for setting up 
 
 ---
 
+## Table of contents
+
+1.  [Visual Studio Code (VS Code)](#1-visual-studio-code-vs-code)
+2.  [Git](#2-git)
+3.  [Python](#3-python)
+4.  [Rust](#4-rust)
+5.  [Gemini CLI](#5-gemini-cli)
+6.  [GitHub Copilot Setup](#6-next-steps-github-copilot-setup)
+7.  [Recommended VS Code Extensions](#7-recommended-vs-code-extensions)
+
+---
+
 ## 1. Visual studio code (vs code)
 
 This will be our primary code editor, or integrated development environment (ide), for the entire course. You can find step-by-step installation instructions for your operating system below [here](https://code.visualstudio.com/docs/setup/setup-overview). Here's the short version for each platform:
@@ -127,7 +139,52 @@ Open a **new** terminal window and type the following command. You should see a 
 
 ---
 
-## 5. Next steps: github copilot setup
+## 5. Gemini CLI
+
+The Gemini CLI is a powerful command-line interface that allows you to interact with Google's Gemini models directly from your terminal.
+
+### Installation
+
+The `gemini-cli` tool is built with Python, so we will use `pip` (the Python Package Installer) to install it.
+
+1.  Open your terminal (or PowerShell on Windows).
+2.  Run the following command:
+    `pip install -U gemini-cli`
+
+### Configuration (API key)
+
+The Gemini CLI needs an API key to access Google's models.
+
+1.  Go to the [Google AI Studio website](https://aistudio.google.com/).
+2.  Sign in with your Google account.
+3.  Click on the "**Get API key**" button in the top left.
+4.  Click "**Create API key in new project**".
+5.  A new key will be generated for you. **Copy this key immediately and save it somewhere safe**, like a password manager. You will not be able to see it again.
+6.  Now, you need to set this key as an environment variable so the `gemini` command can find it.
+    *   **macOS/Linux**:
+        1.  Open your terminal.
+        2.  Run the command `gemini auth` and paste your API key when prompted.
+    *   **Windows**:
+        1.  Open PowerShell.
+        2.  Run the command `gemini auth` and paste your API key when prompted.
+
+### Verifying your installation
+
+Open a new terminal and run the following command:
+
+`gemini --version`
+
+You should see the version number of the installed CLI. Now, test that your API key is working correctly:
+
+`gemini prompt "hello"`
+
+If it is configured correctly, you should receive a friendly greeting from the model.
+
+> **Troubleshooting Tip:** If you run `gemini prompt "hello"` in a terminal and get an error saying the command is not found, try closing and reopening your terminal window. This allows the system to recognize the new command after installation.
+
+---
+
+## 6. Next steps: github copilot setup
 
 Now that the tools are installed, the final step is to activate your ai co-pilot.
 
@@ -141,7 +198,7 @@ Now that the tools are installed, the final step is to activate your ai co-pilot
 
 ---
 
-## 6. Recommended vs code extensions
+## 7. Recommended vs code extensions
 
 To supercharge your development environment, we recommend installing the following extensions. You can install them by searching for the extension id in the extensions view (`ctrl+shift+x`) in vs code.
 

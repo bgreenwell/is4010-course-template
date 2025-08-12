@@ -12,13 +12,13 @@ This course introduces students to a computer programming language with object-o
 
 ## 🚀 Quick links
 
-* **Full syllabus:** [link to full syllabus on canvas]
+* **Full syllabus:** [Read the full syllabus here](./syllabus.md)
 * **Canvas page:** [link to course on canvas]
 * **Class teams channel:** [link to microsoft teams channel]
 
 ## 🛠️ Course tools
 
-You will need the following software installed and configured by the end of the first week:
+You will need the following software installed and configured by the end of the first week. For detailed instructions, please see the [**Setup Guide**](./resources/SETUP_GUIDE.md).
 
 * Visual Studio Code (vs code)
 * Git & a GitHub account
@@ -67,3 +67,23 @@ If you get stuck, help is always available. Please use the following channels:
 1.  Ask a question in our class **teams channel**.
 2.  Come to my virtual or in-person office hours.
 3.  Email me to schedule a separate meeting.
+
+## 📚 Additional resources
+
+This section provides a summary of free Large Language Model (LLM) clients that are suitable for students. The landscape of AI tools is constantly changing, so some details may be out of date.
+
+| Client Name | Type | Key Features | Free Tier Details | Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[ChatGPT](https://chat.openai.com/)** | Web UI | General-purpose conversational AI for a wide range of tasks. | Free access to a highly capable model, with some usage limits. | General Q&A, content creation, and exploring creative ideas. |
+| **[Claude](https://claude.ai/)** | Web UI | Strong capabilities in creative writing, summarization, and analysis. | Free tier with daily message limits. | Sophisticated writing tasks and in-depth document analysis. |
+| **[Gemini on the Web](https://gemini.google.com)** | Web UI | User-friendly interface for direct chat, content generation, and analysis. | Free access to a powerful model, with some limits on usage. | Everyday tasks, brainstorming, writing assistance, and learning LLM capabilities. |
+| **[GitHub Copilot](https://github.com/features/copilot)** | IDE Extension | AI-powered code completion, suggestions, and chat within your editor. | Free for verified students, teachers, and maintainers of popular open-source projects. | Seamlessly integrating AI assistance into the software development workflow. |
+| **[Gemini CLI](https://github.com/google/gemini-cli)** | Command-Line | Direct access to Gemini models, scripting, automation. | Free tier with rate limits (requests per minute). | Developers and power users for terminal-based tasks. |
+| **[LM Studio](https://lmstudio.ai/)** | Desktop App | Run open-source LLMs locally, offline capability. | Completely free software; uses your computer's resources. | Running models offline and experimenting with privacy. |
+| **[Ollama](https://ollama.ai/)** | CLI / Local Server | Easily run and manage open-source LLMs locally, provides an API. | Completely free software; uses your computer's resources. | Developers building applications on top of local LLMs. |
+| **[LibreChat](https://librechat.ai/)** | Self-Hosted Web UI | ChatGPT-like interface, supports multiple AI backends. | Free software; you cover hosting/API costs (if any). | Creating a personal, customized chat platform. |
+| **[Hugging Face Chat](https://huggingface.co/chat/)**| Web UI | Access and chat with a wide variety of open-source models. | Completely free to use. | Quickly trying out and comparing open-source models. |
+| **[Poe by Quora](https.poe.com)** | Web & Mobile App | Access a mix of popular models (Claude, Gemini, etc.) in one app. | Free daily message limits for most models. | Comparing different flagship models, especially on mobile. |
+| **[Google AI Studio](https://aistudio.google.com/)** | Web UI | Prototype prompts for the Gemini API, generate code. | Free tier with rate limits, same as the Gemini API. | Students learning to build with the Gemini API. |
+
+**Disclaimer:** This list is not exhaustive and was last updated on August 8, 2025. The free tiers and features of these services are subject to change. Please refer to the official websites for the most current information.
