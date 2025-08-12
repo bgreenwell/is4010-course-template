@@ -13,6 +13,7 @@ Welcome to IS4010! This guide provides step-by-step instructions for setting up 
 5.  [Gemini CLI](#5-gemini-cli)
 6.  [GitHub Copilot Setup](#6-next-steps-github-copilot-setup)
 7.  [Recommended VS Code Extensions](#7-recommended-vs-code-extensions)
+8.  [Installing Course Packages](#installing-course-packages)
 
 ---
 
@@ -114,6 +115,16 @@ Open your terminal and run the following command to ensure you have python 3 and
 Open your terminal and type the following command. You should see a version number printed. Note that on macos and linux, you may need to use `python3`.
 
 `python --version` or `python3 --version`
+
+### Installing course packages
+
+This course requires a few external Python packages. You can install them all with a single command.
+
+1.  Make sure you are in the root directory of your `is4010-course-template` project in your terminal.
+2.  Run the following command:
+    `pip install -r requirements.txt`
+
+This will read the `requirements.txt` file and install the correct versions of all necessary libraries.
 
 ---
 
