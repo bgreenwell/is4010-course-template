@@ -23,13 +23,24 @@ Please follow these steps carefully.
 
 1.  In your web browser, navigate to [github.com](https://github.com) and log in.
 2.  In the top-right corner, click the `+` icon and select **new repository**.
-3.  For the "repository name", enter `is4010-labs`.
+3.  For the "repository name", enter `is4010-[your-github-username]-labs`. For example, if your GitHub username is "johndoe", name it `is4010-johndoe-labs`.
 4.  Provide a brief, one-sentence description. For example: "Lab assignments for IS4010."
-5.  Select **public** so your work can be reviewed.
+5.  Select **private** to maintain academic integrity while allowing instructor access.
 6.  **Important:** Do **not** check the box to "add a README file," "add .gitignore," or "choose a license." We want to start with a completely empty repository.
 7.  Click the **create repository** button.
 
-### Step 2: Create a personal access token (pat)
+### Step 2: Add instructor as collaborator
+
+Since your repository is private, you need to give your instructor access to review and grade your work.
+
+1.  On your new repository's GitHub page, click the **Settings** tab.
+2.  In the left sidebar, click **Collaborators**.
+3.  Click the **Add people** button.
+4.  In the search box, type `bgreenwell` and select the user.
+5.  Click **Add bgreenwell to this repository**.
+6.  Your instructor will automatically have access to your private repository for grading and feedback.
+
+### Step 3: Create a personal access token (pat)
 
 To push code from your computer to github, you need a special password called a personal access token. Let's create one now.
 
@@ -43,7 +54,7 @@ To push code from your computer to github, you need a special password called a 
 8.  Scroll down and click the **generate token** button.
 9.  **CRITICAL STEP:** Github will now show you your token. This is the **only time** you will ever see it. Copy the token immediately and save it somewhere safe, like a password manager or a private text file. If you lose it, you will have to delete it and create a new one.
 
-### Step 3: Clone the repository to your computer
+### Step 4: Clone the repository to your computer
 
 Now that you have a repository and a token, let's get a local copy of the project.
 
@@ -52,31 +63,42 @@ Now that you have a repository and a token, let's get a local copy of the projec
 3.  Open your terminal (or git bash on windows) and navigate to a folder where you want to store your school work.
 4.  Run the `git clone` command with the url you copied:
     ```
-    git clone [https://github.com/your-username/is4010-labs.git](https://github.com/your-username/is4010-labs.git)
+    git clone https://github.com/your-username/is4010-[your-username]-labs.git
     ```
 
-### Step 4: Create and commit your first file
+### Step 5: Set up folder structure and create your first file
+
+To keep your labs organized throughout the semester, we'll create a folder structure now.
 
 1.  In your terminal, navigate into your new project folder:
     ```
-    cd is4010-labs
+    cd is4010-[your-username]-labs
     ```
-2.  Create a new file named `hello.py` by opening the folder in vs code.
-3.  Add the following line of code to `hello.py` and save it:
+2.  Create a folder for this lab:
+    ```
+    mkdir lab01
+    cd lab01
+    ```
+3.  Open this folder in VS Code and create a new file named `hello.py`.
+4.  Add the following line of code to `hello.py` and save it:
     ```python
     print("hello from [your name]!")
     ```
-4.  Now, back in your terminal, check the state of your repository by running `git status`. You should see `hello.py` listed as an "untracked file."
-5.  Stage the file for your next commit:
+5.  Navigate back to your repository root:
     ```
-    git add hello.py
+    cd ..
     ```
-6.  Commit the staged file to your local repository's history:
+6.  Check the state of your repository by running `git status`. You should see `lab01/hello.py` listed as an "untracked file."
+7.  Stage the file for your next commit:
+    ```
+    git add lab01/hello.py
+    ```
+8.  Commit the staged file to your local repository's history:
     ```
     git commit -m "Add hello.py for lab 01"
     ```
 
-### Step 5: Push your commit to github
+### Step 6: Push your commit to github
 
 The final step is to "push" your local commit to the remote repository.
 
@@ -89,6 +111,70 @@ The final step is to "push" your local commit to the remote repository.
     * For "password," paste the **personal access token (pat)** you copied in step 2.
 3.  Once the push is complete, refresh your repository's page on github. You should now see your `hello.py` file!
 
+## ⚠️ CRITICAL REQUIREMENTS ⚠️
+
+**Before submitting, you MUST verify these two essential steps are completed:**
+
+1. **✅ Repository is PRIVATE** - Public repositories violate academic integrity policy and will result in a grade of zero
+2. **✅ Instructor added as collaborator** - Without `@bgreenwell` as a collaborator, your work cannot be graded
+
+**Double-check these requirements now!** Go to your repository settings and confirm:
+- Repository visibility shows "Private" 
+- Collaborators section shows "bgreenwell" as a collaborator
+
+**Failure to complete either step will result in automatic deduction of points.**
+
+## 🚨 Troubleshooting Guide
+
+Git and GitHub can be tricky the first time! Here are solutions to common issues:
+
+### **Problem: "Permission denied" or authentication errors**
+- **Solution**: Double-check your Personal Access Token (PAT)
+  - Make sure you copied the entire token correctly
+  - Verify the token hasn't expired
+  - Ensure you're using the token as your password, not your GitHub password
+
+### **Problem: "Repository not found" when cloning**
+- **Solution**: Check your repository URL
+  - Make sure the repository name matches exactly: `is4010-[your-username]-labs`
+  - Verify you're logged into the correct GitHub account
+  - Confirm the repository was created successfully
+
+### **Problem: Can't see files after cloning**
+- **Solution**: Navigate to the correct directory
+  - Use `pwd` to see your current location
+  - Use `cd is4010-[your-username]-labs` to enter your repository
+  - Use `ls` to list files and folders
+
+### **Problem: "Nothing to commit" or files not showing**
+- **Solution**: Check file location and git status
+  - Make sure `hello.py` is inside the `lab01/` folder
+  - Run `git status` to see what Git detects
+  - Use `git add lab01/hello.py` to stage the specific file
+
+### **Problem: Can't add instructor as collaborator**
+- **Solution**: Repository settings access
+  - Make sure you're on your repository's main page
+  - Look for the "Settings" tab (it might be in a dropdown if on mobile)
+  - If you can't find Settings, try accessing GitHub on a computer instead of mobile
+
+### **Still stuck? Use AI assistance! 🤖**
+
+Don't hesitate to use AI tools to help debug issues. They're excellent for troubleshooting:
+
+- **[ChatGPT](https://chat.openai.com/)** - Great for explaining Git concepts and debugging commands
+- **[Claude](https://claude.ai/)** - Excellent for step-by-step troubleshooting and code explanations  
+- **[Gemini](https://gemini.google.com/)** - Helpful for understanding error messages and Git workflow
+
+**Pro tip**: When asking AI for help, copy and paste the exact error message you're seeing. The more specific your question, the better help you'll get!
+
+### **Example AI prompts that work well:**
+- "I'm getting this error when trying to push to GitHub: [paste error here]. How do I fix it?"
+- "I'm new to Git and GitHub. Can you explain what 'git add' does in simple terms?"
+- "I created a private repository but I can't find how to add a collaborator. Can you walk me through the steps?"
+
 ## Submission
 
-To complete this lab, submit the **https url** to your `is4010-labs` github repository on canvas.
+To complete this lab, submit the **https url** to your `is4010-[your-username]-labs` github repository on canvas.
+
+**Example submission URL:** `https://github.com/johndoe/is4010-johndoe-labs`
