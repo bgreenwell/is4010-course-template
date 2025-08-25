@@ -8,23 +8,23 @@ Hey everyone, and welcome to IS4010! This GitHub repository is your central hub 
 
 ## Course description
 
-This course introduces students to a computer programming language with object-oriented programming (oop) principles which include creating and manipulating classes and objects. Students will develop solutions to process data and implement algorithms in a modern integrated development environment (ide) to support debugging and team development. Popular libraries and tools to support oop programming, including ai-powered tools and libraries, will also be studied and applied to enhance problem-solving and application development. 
+This course introduces students to a computer programming language with object-oriented programming (OOP) principles which include creating and manipulating classes and objects. Students will develop solutions to process data and implement algorithms in a modern integrated development environment (IDE) to support debugging and team development. Popular libraries and tools to support OOP programming, including AI-powered tools and libraries, will also be studied and applied to enhance problem-solving and application development. 
 
 ## 🚀 Quick links
 
-* **Full syllabus:** [Read the full syllabus here](./syllabus.md)
-* **Canvas page:** [link to course on canvas]
-* **Class teams channel:** [link to microsoft teams channel]
+* **Full syllabus:** [Read the full syllabus here](https://bgreenwell.github.io/is4010-instructor-materials/syllabus.html)
+* **Canvas page:** [IS4010 Fall 2025 Course](https://uc.instructure.com/courses/1812798)
+* **Class Teams channel:** [link to microsoft teams channel]
 
 ## 🛠️ Course tools
 
 You will need the following software installed and configured by the end of the first week. For detailed instructions, please see the [**Setup Guide**](./resources/SETUP_GUIDE.md).
 
-* Visual Studio Code (vs code)
+* Visual Studio Code (VS Code)
 * Git & a GitHub account
 * Python 3.10+
 * The Rust Programming Language toolchain
-* GitHub Copilot (via the student developer pack)
+* GitHub Copilot (via the Student Developer Pack)
 
 ## 📁 Repository structure
 
@@ -38,14 +38,14 @@ This repository is organized to make finding what you need simple.
 
 ## 🗺️ Course roadmap
 
-This is a high-level overview of our journey this semester. A more detailed schedule is available on canvas.
+This is a high-level overview of our journey this semester. A more detailed schedule is available on Canvas.
 
 | Week | Module | Topic | Slides | Labs |
 | :--- | :--- | :--- | :--- | :--- |
-| Weeks 1-2 | Foundations & modern tooling | Git, GitHub, and our AI code assistants (copilot & gemini) | [W01\_Introduction](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W01_Introduction.html#/title-slide), [W02\_AI\_Copilots](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W02_AI_Copilots.html) | [Lab 01](./labs/lab01/), [Lab 02](./labs/lab02/) |
+| Weeks 1-2 | Foundations & modern tooling | Git, GitHub, and our AI code assistants (Copilot & Gemini) | [W01\_Introduction](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W01_Introduction.html#/title-slide), [W02\_AI\_Copilots](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W02_AI_Copilots.html) | [Lab 01](./labs/lab01/), [Lab 02](./labs/lab02/) |
 | Weeks 3-6 | Python fundamentals w/ AI | Python basics, data structures, and OOP | [W03\_Python\_Basics](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W03_Python_Basics.html), [W04\_Data\_Structures](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W04_Data_Structures.html), [W05\_Functions\_and\_Errors](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W05_Functions_and_Errors.html), [W06\_OOP](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W06_OOP.html) | [Lab 03](./labs/lab03/), [Lab 04](./labs/lab04/), [Lab 05](./labs/lab05/), [Lab 06](./labs/lab06/) |
-| Weeks 7-9 | Building a python application | APIs, data handling, and the midterm project | [W07\_Working\_with\_Data](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W07_Working_with_Data.html) | [Lab 07](./labs/lab07/), Lab 08 (TBD), Lab 09 (TBD) |
-| Weeks 10-12| New frontiers: rust | Rust fundamentals, ownership, and a CLI app | [W10\_Welcome\_to\_Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W10_Welcome_to_Rust.html), [W11\_The\_Soul\_of\_Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W11_The_Soul_of_Rust.html), [W12\_Building\_a\_CLI\_App\_in\_Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W12_Building_a_CLI_App_in_Rust.html) | [Lab 10](./labs/lab10/), [Lab 11](./labs/lab11/), [Lab 12](./labs/lab12/) |
+| Weeks 7-9 | Building a Python application | APIs, data handling, and the midterm project | [W07\_Working\_with\_Data](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W07_Working_with_Data.html) | [Lab 07](./labs/lab07/), Lab 08 (TBD), Lab 09 (TBD) |
+| Weeks 10-12| New frontiers: Rust | Rust fundamentals, ownership, and a CLI app | [W10\_Welcome\_to\_Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W10_Welcome_to_Rust.html), [W11\_The\_Soul\_of\_Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W11_The_Soul_of_Rust.html), [W12\_Building\_a\_CLI\_App\_in\_Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W12_Building_a_CLI_App_in_Rust.html) | [Lab 10](./labs/lab10/), [Lab 11](./labs/lab11/), [Lab 12](./labs/lab12/) |
 | Week 13| Final project workshop | Collaborative work session and MVP check-ins | (Project workshop) | |
 | Week 14 | Final project polish | Presentation dry-runs and peer feedback | (Project workshop) | |
 | Exam week | Demo day\! | Final project presentations | (Presentations) | |
@@ -64,7 +64,7 @@ Unlike the previous version of this course which restricted AI use, the use of A
 
 If you get stuck, help is always available. Please use the following channels:
 
-1.  Ask a question in our class **teams channel**.
+1.  Ask a question in our class **Teams channel**.
 2.  Come to my virtual or in-person office hours.
 3.  Email me to schedule a separate meeting.
 
