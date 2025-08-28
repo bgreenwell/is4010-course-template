@@ -1,19 +1,21 @@
 # Lab 01: Git and github fundamentals
 
+**Due Date: Sunday, September 1, 2024 at 11:59 PM**
+
 ## Objective
 
 The goal of this lab is to complete the fundamental git workflow. You will create a github account and personal access token (pat), create a remote repository on github, connect it to a local repository on your computer, make a change, and push that change back to github.
 
 ## Background
 
-In modern software development, we keep our code in a central, cloud-based location called a **remote repository** (on github). We make copies of this repository on our own computers, called **local repositories**. We work on the code locally, and once we are happy with our changes, we "push" them to the remote repository. This lab walks you through that entire cycle for the first time.
+In modern software development, we keep our code in a central, cloud-based location called a **remote repository** (on [GitHub](https://github.com/)). We make copies of this repository on our own computers, called **local repositories**. We work on the code locally, and once we are happy with our changes, we "push" them to the remote repository. This lab walks you through that entire cycle for the first time.
 
 ## Prerequisites
 
 Before you begin, please ensure you have completed the following from our course setup guide:
 
-- You have successfully installed git on your computer.
-- You have created a free github account.
+- You have successfully installed [Git](https://git-scm.com/) on your computer.
+- You have created a free [GitHub](https://github.com/) account.
 
 ## Instructions
 
@@ -42,9 +44,9 @@ Since your repository is private, you need to give your instructor access to rev
 
 ### Step 3: Create a personal access token (pat)
 
-To push code from your computer to github, you need a special password called a personal access token. Let's create one now.
+To push code from your computer to GitHub, you need a special password called a [personal access token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens). Let's create one now.
 
-1.  In the top-right corner of any github page, click your profile photo, then click **settings**.
+1.  In the top-right corner of any GitHub page, click your profile photo, then click **[Settings](https://github.com/settings)**.
 2.  In the left sidebar, scroll down and click **<> developer settings**.
 3.  In the left sidebar, under "personal access tokens," click **tokens (classic)**.
 4.  Click the **generate new token** button, and select **generate new token (classic)**.
@@ -52,15 +54,15 @@ To push code from your computer to github, you need a special password called a 
 6.  For "expiration," select **90 days**.
 7.  Under "select scopes," check the box next to **`repo`**. This gives the token permission to access your repositories.
 8.  Scroll down and click the **generate token** button.
-9.  **CRITICAL STEP:** Github will now show you your token. This is the **only time** you will ever see it. Copy the token immediately and save it somewhere safe, like a password manager or a private text file. If you lose it, you will have to delete it and create a new one.
+9.  **CRITICAL STEP:** GitHub will now show you your token. This is the **only time** you will ever see it. Copy the token immediately and save it somewhere safe, like a [password manager](https://www.pcmag.com/picks/the-best-password-managers) or a private text file. If you lose it, you will have to delete it and create a new one.
 
 ### Step 4: Clone the repository to your computer
 
 Now that you have a repository and a token, let's get a local copy of the project.
 
-1.  On your new repository's github page, click the green **<> code** button.
+1.  On your new repository's GitHub page, click the green **[<> Code](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)** button.
 2.  Ensure you are on the **https** tab, and click the copy icon next to the url. It should look something like `https://github.com/your-username/is4010-labs.git`.
-3.  Open your terminal (or git bash on windows) and navigate to a folder where you want to store your school work.
+3.  Open your terminal (or [Git Bash](https://git-scm.com/downloads) on Windows) and navigate to a folder where you want to store your school work.
 4.  Run the `git clone` command with the url you copied:
     ```
     git clone https://github.com/your-username/is4010-[your-username]-labs.git
@@ -79,7 +81,7 @@ To keep your labs organized throughout the semester, we'll create a folder struc
     mkdir lab01
     cd lab01
     ```
-3.  Open this folder in VS Code and create a new file named `hello.py`.
+3.  Open this folder in [VS Code](https://code.visualstudio.com/) and create a new file named `hello.py`.
 4.  Add the following line of code to `hello.py` and save it:
     ```python
     print("hello from [your name]!")
@@ -129,7 +131,7 @@ The final step is to "push" your local commit to the remote repository.
 Git and GitHub can be tricky the first time! Here are solutions to common issues:
 
 ### **Problem: "Permission denied" or authentication errors**
-- **Solution**: Double-check your Personal Access Token (PAT)
+- **Solution**: Double-check your [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
   - Make sure you copied the entire token correctly
   - Verify the token hasn't expired
   - Ensure you're using the token as your password, not your GitHub password
@@ -155,7 +157,7 @@ Git and GitHub can be tricky the first time! Here are solutions to common issues
 ### **Problem: Can't add instructor as collaborator**
 - **Solution**: Repository settings access
   - Make sure you're on your repository's main page
-  - Look for the "Settings" tab (it might be in a dropdown if on mobile)
+  - Look for the "[Settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features)" tab (it might be in a dropdown if on mobile)
   - If you can't find Settings, try accessing GitHub on a computer instead of mobile
 
 ### **Still stuck? Use AI assistance! 🤖**
@@ -170,11 +172,27 @@ Don't hesitate to use AI tools to help debug issues. They're excellent for troub
 
 ### **Example AI prompts that work well:**
 - "I'm getting this error when trying to push to GitHub: [paste error here]. How do I fix it?"
-- "I'm new to Git and GitHub. Can you explain what 'git add' does in simple terms?"
+- "I'm new to [Git](https://git-scm.com/) and [GitHub](https://github.com/). Can you explain what '[git add](https://git-scm.com/docs/git-add)' does in simple terms?"
 - "I created a private repository but I can't find how to add a collaborator. Can you walk me through the steps?"
 
 ## Submission
 
-To complete this lab, submit the **https url** to your `is4010-[your-username]-labs` github repository on canvas.
+To complete this lab, submit your **repository URL** on Canvas.
+
+**What to submit:** The main HTTPS URL to your repository (not a specific file or folder)
 
 **Example submission URL:** `https://github.com/johndoe/is4010-johndoe-labs`
+
+### Final checklist before submission
+
+Before submitting on Canvas, verify your repository contains:
+
+- [ ] Repository name follows format: `is4010-[your-username]-labs`
+- [ ] Repository is set to **Private** (not public)
+- [ ] `@bgreenwell` has been added as a collaborator
+- [ ] `lab01/` folder exists in your repository
+- [ ] `lab01/hello.py` file exists and contains your print statement
+- [ ] Your changes have been successfully pushed to GitHub (visible on the website)
+- [ ] Your repository URL works when pasted into a browser
+
+**⚠️ Double-check the repository is PRIVATE and has the instructor as a collaborator - these are required for credit!**
