@@ -144,8 +144,6 @@ def calculate_area(length, width):
 
 -----
 
-## Submission
-
 ## 🚨 Troubleshooting Guide
 
 AI tools can sometimes be tricky! Here are solutions to common issues:
@@ -203,13 +201,9 @@ Don't hesitate to use AI tools to help with this lab - it's actually part of the
 
 ## Submission
 
-To complete this lab, submit your **repository URL** on Canvas.
+No submission is required on Canvas for this lab. Since you provided your repository URL in Lab 01, we will automatically check your repository for completed work.
 
-**What to submit:** The main HTTPS URL to your repository (not a specific file or folder)
-
-**Example submission URL:** `https://github.com/johndoe/is4010-johndoe-labs`
-
-When you are finished with both parts of the lab, please commit and push your `lab02/` folder and its contents to your `is4010-[username]-labs` [GitHub](https://github.com/) repository.
+**What you need to do:** Simply commit and push your completed `lab02/` folder to your `is4010-[username]-labs` [GitHub](https://github.com/) repository before the due date.
 
 Your `lab02/` folder should contain:
 1.  `lab02.py` - Your [GitHub Copilot](https://github.com/features/copilot)-generated functions
@@ -233,9 +227,9 @@ git commit -m "Complete Lab 02: AI-assisted development"
 git push origin main
 ```
 
-### Final checklist before submission
+### Final checklist before due date
 
-Before submitting on Canvas, verify your repository contains:
+Before the due date, verify your repository contains:
 
 - [ ] Repository name follows format: `is4010-[your-username]-labs`
 - [ ] Repository is set to **Private** (not public)
@@ -246,6 +240,5 @@ Before submitting on Canvas, verify your repository contains:
 - [ ] Each function in `lab02.py` has working code (not just `pass`)
 - [ ] Each problem in `lab02_prompts.md` includes your prompt and the AI's corrected code
 - [ ] Your changes have been successfully pushed to [GitHub](https://github.com/) (visible on the website)
-- [ ] Your repository URL works when pasted into a browser
 
 **⚠️ Double-check that your repository is PRIVATE and has the instructor as a collaborator - these are required for credit!**
