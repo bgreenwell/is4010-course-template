@@ -242,3 +242,57 @@ Before the due date, verify your repository contains:
 - [ ] Your changes have been successfully pushed to [GitHub](https://github.com/) (visible on the website)
 
 **⚠️ Double-check that your repository is PRIVATE and has the instructor as a collaborator - these are required for credit!**
+
+## 🤖 Automated Grading & Feedback
+
+Your Lab 02 submission will be automatically evaluated within 24-48 hours using our sophisticated grading system. Here's what to expect:
+
+### **Grading Components (10 points total):**
+- ✅ **Repository Setup** (3 points): Private repository with instructor access
+- ✅ **Lab02 Folder** (1 point): `lab02/` folder exists (case-insensitive detection)
+- ✅ **Python File** (1 point): `lab02.py` file exists in the lab02 folder
+- ✅ **Python Functions** (4 points): All three functions working correctly
+  - `factorial(n)` - Calculates factorials correctly
+  - `is_prime(number)` - Accurately identifies prime numbers  
+  - `reverse_string(s)` - Properly reverses strings
+  - **Bonus point** awarded when all three functions work perfectly!
+- ✅ **Markdown Content** (1 point): `lab02_prompts.md` with all three prompt engineering solutions
+
+### **Advanced Testing:**
+The grading system will actually **run your functions** with test cases:
+- `factorial(5)` should return `120`
+- `is_prime(17)` should return `True`  
+- `reverse_string("hello")` should return `"olleh"`
+- Functions with remaining `pass` statements will be detected
+- Syntax errors and runtime issues will be caught and explained
+
+### **Getting Your Feedback:**
+- **Perfect submissions** (10/10 points): No feedback issue created - you've mastered AI-assisted development! 🎉
+- **Submissions needing improvement**: Detailed **GitHub Issue** in your repository with:
+  - Your score breakdown (e.g., "Lab 2 Feedback - 8/10 points")
+  - Specific test results for each function
+  - Markdown validation results  
+  - Clear improvement guidance for any issues
+
+### **Example Feedback You Might Receive:**
+```
+🎯 Lab 2 Feedback - 8/10 points (80%)
+
+✅ Repository Setup: 3/3 points
+✅ Lab02 Folder: 1/1 points  
+✅ Python File: 1/1 points
+⚠️ Python Functions: 2/4 points
+   ✅ factorial working correctly
+   ❌ is_prime has issues (1/6 tests passed)
+   ✅ reverse_string working correctly
+❌ Markdown Content: 0/1 points - Missing problem sections
+
+Next Steps: Fix your is_prime function logic and add the three 
+required sections to your lab02_prompts.md file...
+```
+
+### **💡 Pro Tips:**
+- Test your functions before submitting - the grader will catch logical errors
+- The system handles various folder naming: `lab02/`, `Lab02/`, `labs/lab02/`
+- Markdown validation checks for proper structure with problem sections and code blocks
+- You can reply to feedback issues with questions about your submission

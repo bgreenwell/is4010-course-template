@@ -60,6 +60,41 @@ Unlike the previous version of this course which restricted AI use, the use of A
 2.  **Always understand the code.** If you use AI to generate something, you must be able to explain what it does. Use the AI to help you learn, not just to produce an answer.
 3.  **Acknowledge your partner.** In your final project, your team will be required to document how you used AI tools in your development process.
 
+## 📊 How Grading Works
+
+This course uses an **automated grading system** that provides you with immediate, detailed feedback on your lab submissions. Here's what to expect:
+
+### **Automatic Assessment**
+- Your [GitHub](https://github.com/) repository is automatically evaluated within 24-48 hours of submission
+- The system checks code functionality, repository setup, documentation quality, and requirement compliance
+- Scoring is objective and consistent across all students
+
+### **GitHub Issues Feedback**
+After grading, you'll receive personalized feedback as a **GitHub Issue** in your repository containing:
+- 📊 **Point breakdown** - Exactly how points were earned/lost for each component
+- ✅ **Success highlights** - Recognition for components that work correctly  
+- 🔧 **Improvement guidance** - Specific next steps to address any issues
+- 🧪 **Test results** - For code labs, see which functions pass/fail automated tests
+
+### **What This Means for You**
+- **No waiting weeks for grades** - Get feedback quickly while the assignment is fresh in your mind
+- **Learn from specific examples** - See exactly which parts of your code work and which need improvement
+- **Professional development** - Experience automated testing and CI/CD practices used in industry
+- **More instructor time** - Automated grading frees up office hours for higher-level concept discussion
+
+### **Example Feedback**
+```
+🎯 Lab 2 Submission Feedback - 8/10 points (80%)
+
+✅ Repository Setup: 3/3 points - Private repo with instructor access
+✅ Python Functions: 4/4 points - All three functions working perfectly! 
+❌ Markdown Content: 0/1 points - Missing problem sections in lab02_prompts.md
+
+Next Steps: Add the three required problem sections to your markdown file...
+```
+
+**💡 Pro tip**: Students with perfect scores (10/10) won't receive feedback issues since no improvements are needed!
+
 ## 🤔 Getting help
 
 If you get stuck, help is always available. Please use the following channels:
@@ -67,6 +102,7 @@ If you get stuck, help is always available. Please use the following channels:
 1.  Ask a question in our class **Teams channel**.
 2.  Come to my virtual or in-person office hours.
 3.  Email me to schedule a separate meeting.
+4.  **Review your GitHub Issues** - Automated feedback often answers common questions about your submission.
 
 ## 📚 Additional resources
 

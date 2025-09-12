@@ -52,7 +52,7 @@ To push code from your computer to GitHub, you need a special password called a 
 4.  Click the **generate new token** button, and select **generate new token (classic)**.
 5.  In the "note" field, give your token a descriptive name, like `is4010-laptop`.
 6.  For "expiration," select **90 days**.
-7.  Under "select scopes," check the box next to **`repo`**. This gives the token permission to access your repositories.
+7.  Under "select scopes," check the box next to **`repo`**. This gives the token permission to access your repositories and will also enable automated testing workflows (GitHub Actions) that you'll set up in Lab 03.
 8.  Scroll down and click the **generate token** button.
 9.  **CRITICAL STEP:** GitHub will now show you your token. This is the **only time** you will ever see it. Copy the token immediately and save it somewhere safe, like a [password manager](https://www.pcmag.com/picks/the-best-password-managers) or a private text file. If you lose it, you will have to delete it and create a new one.
 
@@ -196,3 +196,47 @@ Before submitting on Canvas, verify your repository contains:
 - [ ] Your repository URL works when pasted into a browser
 
 **⚠️ Double-check the repository is PRIVATE and has the instructor as a collaborator - these are required for credit!**
+
+## 🔮 Looking Ahead: Professional Development Setup
+
+The personal access token you just created will serve you throughout the course. In Lab 03, you'll use this same token to enable **automated testing** with GitHub Actions - a professional development practice used by software teams worldwide. This automation will:
+
+- Run tests on your code automatically when you push changes
+- Provide instant feedback on your implementations
+- Ensure your code meets quality standards before submission
+- Give you confidence that your solutions work correctly
+
+This is the same workflow used at major tech companies like Google, Microsoft, and GitHub themselves!
+
+## 🤖 Automated Grading & Feedback
+
+After you submit, your repository will be automatically evaluated within 24-48 hours. Here's what the automated grading system checks for Lab 01:
+
+### **Grading Components (10 points total):**
+- ✅ **Repository Exists & Accessible** (1 point): Repository can be accessed by the grading system
+- ✅ **Repository is Private** (2 points): Repository is set to private with instructor as collaborator
+- ✅ **Repository Naming** (1 point): Repository follows naming convention (flexible)
+- ✅ **Lab01 Folder** (1 point): `lab01/` folder exists in your repository (case-insensitive)  
+- ✅ **Hello.py File** (3 points): Working Python file with proper print statement
+- ✅ **Instructor Collaboration** (2 points): `@bgreenwell` added as collaborator
+
+### **Getting Your Feedback:**
+- **Perfect submissions** (10/10 points): No feedback issue created since no improvements are needed! 🎉
+- **Submissions needing improvement**: You'll receive a detailed **GitHub Issue** in your repository containing:
+  - Your total score and percentage
+  - Point-by-point breakdown showing what you earned
+  - Specific guidance for any missing components
+  - Clear next steps to address any issues
+
+### **How to Check Your Feedback:**
+1. Go to your repository on GitHub
+2. Click the **"Issues"** tab at the top
+3. Look for an issue titled "Lab 1 Feedback - X/10 points"
+4. Read the detailed breakdown and improvement suggestions
+5. You can reply to the issue with questions if needed
+
+### **💡 Pro Tips:**
+- The system is case-insensitive (it will find `Lab01/` or `LAB01/` folders)
+- Feedback typically appears within 24-48 hours of submission
+- Perfect scores won't generate feedback issues to reduce notification noise
+- You can always ask questions about your feedback during office hours!
