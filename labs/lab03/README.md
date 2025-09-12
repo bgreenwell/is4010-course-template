@@ -354,17 +354,6 @@ GitHub Actions is a powerful automation platform built into GitHub. It allows yo
 
 ### Instructions for GitHub Actions setup
 
-**File structure you need to create:**
-```
-your-repo/
-├── .github/
-│   └── workflows/
-│       └── main.yml
-└── lab03/
-    ├── lab03.py
-    └── test_lab03.py
-```
-
 **Step-by-step process:**
 
 1. In the **root** of your `is4010-labs` repository, create a new folder named `.github`
@@ -440,6 +429,9 @@ is4010-[your-username]-labs/
 │       └── main.yml          # GitHub Actions workflow for automated testing
 ├── lab01/
 │   └── hello.py              # Simple "Hello World" program from Lab 01
+├── lab02/
+│   ├── lab02.py              # AI-assisted functions from Lab 02
+│   └── lab02_prompts.md      # Prompt engineering solutions from Lab 02
 ├── lab03/
 │   ├── lab03.py              # Mad Libs function and guessing game
 │   └── test_lab03.py         # Test file for both functions
@@ -449,6 +441,8 @@ is4010-[your-username]-labs/
 **Key points about this structure:**
 - **`.github/workflows/main.yml`**: Enables automated testing on every push
 - **`lab01/hello.py`**: Your first Python program from Lab 01
+- **`lab02/lab02.py`**: AI-assisted functions (factorial, prime checker, etc.) from Lab 02
+- **`lab02/lab02_prompts.md`**: Prompt engineering solutions and AI debugging examples from Lab 02
 - **`lab03/lab03.py`**: Contains both the `generate_mad_lib()` and `guessing_game()` functions
 - **`lab03/test_lab03.py`**: Contains tests for both functions to ensure they work correctly
 - **Hidden folder**: The `.github` folder starts with a dot, making it a hidden folder that GitHub uses for configuration
