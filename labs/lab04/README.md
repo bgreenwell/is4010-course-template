@@ -391,6 +391,7 @@ Working with data structures and AI assistance can present unique challenges! He
 
 - [ ] `lab04/lab04.py` file exists and contains all three required functions
 - [ ] `lab04/lab04_prompts.md` file exists with your AI interactions documented
+- [ ] `lab04/test_lab04.py` file exists (optional for local testing)
 - [ ] All functions use appropriate data structures as recommended by AI
 - [ ] Functions handle edge cases (empty lists, non-existent users, etc.)
 - [ ] If testing locally: `pytest lab04/test_lab04.py` passes all tests
