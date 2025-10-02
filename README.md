@@ -46,9 +46,13 @@ This is a high-level overview of our journey this semester. A more detailed sche
 Getting started with Git, GitHub, and modern development tools
 
 **Slides**: [Week 01: Introduction](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W01_Introduction.html#/title-slide)
+
 **Lab**: [Lab 01: Git and GitHub Setup](./labs/lab01/)
+
 **Notebook**: *Coming soon*
+
 **Lecture Notes**: *Coming soon*
+
 **Additional Resources**: *Coming soon*
 
 ---
@@ -57,9 +61,13 @@ Getting started with Git, GitHub, and modern development tools
 Learning to work with AI code assistants (GitHub Copilot & Google Gemini)
 
 **Slides**: [Week 02: AI Copilots](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W02_AI_Copilots.html)
+
 **Lab**: [Lab 02: AI Coding Assistants](./labs/lab02/)
+
 **Notebook**: *Coming soon*
+
 **Lecture Notes**: *Coming soon*
+
 **Additional Resources**: *Coming soon*
 
 ---
@@ -68,9 +76,13 @@ Learning to work with AI code assistants (GitHub Copilot & Google Gemini)
 Variables, data types, control flow, and fundamental programming concepts
 
 **Slides**: [Week 03: Python Basics](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W03_Python_Basics.html)
+
 **Lab**: [Lab 03: Python Fundamentals](./labs/lab03/)
+
 **Notebook**: *Coming soon*
+
 **Lecture Notes**: *Coming soon*
+
 **Additional Resources**: *Coming soon*
 
 ---
@@ -79,9 +91,13 @@ Variables, data types, control flow, and fundamental programming concepts
 Lists, dictionaries, tuples, and sets for organizing and manipulating data
 
 **Slides**: [Week 04: Data Structures](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W04_Data_Structures.html)
+
 **Lab**: [Lab 04: Data Structure Selection](./labs/lab04/)
+
 **Notebook**: [Week 04: Data Structures](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W04_DataStructures.ipynb)
+
 **Lecture Notes**: *Coming soon*
+
 **Additional Resources**: *Coming soon*
 
 ---
@@ -90,9 +106,13 @@ Lists, dictionaries, tuples, and sets for organizing and manipulating data
 Creating reusable code with functions and managing errors gracefully
 
 **Slides**: [Week 05: Functions and Errors](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W05_Functions_and_Errors.html)
+
 **Lab**: [Lab 05: Functions and Error Handling](./labs/lab05/)
+
 **Notebook**: [Week 05: Functions and Errors](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W05_Functions_and_Errors.ipynb)
+
 **Lecture Notes**: *Coming soon*
+
 **Additional Resources**: *Coming soon*
 
 ---
@@ -101,9 +121,13 @@ Creating reusable code with functions and managing errors gracefully
 Classes, objects, inheritance, and building scalable software architectures
 
 **Slides**: [Week 06: Object-Oriented Programming](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W06_OOP.html)
+
 **Lab**: [Lab 06: OOP with Books](./labs/lab06/)
+
 **Notebook**: [Week 06: OOP](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W06_OOP.ipynb)
+
 **Lecture Notes**: [Week 06: OOP Lecture Notes](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/slides/lecture-notes/W06_OOP_lecture_notes.md)
+
 **Additional Resources**: *Coming soon*
 
 ---
@@ -112,9 +136,13 @@ Classes, objects, inheritance, and building scalable software architectures
 APIs, data processing, and external data sources
 
 **Slides**: [Week 07: Working with Data](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W07_Working_with_Data.html)
+
 **Lab**: [Lab 07: Data Processing](./labs/lab07/)
+
 **Notebook**: *Coming soon*
+
 **Lecture Notes**: *Coming soon*
+
 **Additional Resources**: *Coming soon*
 
 ---
@@ -123,7 +151,9 @@ APIs, data processing, and external data sources
 Apply Python skills to build a real-world application
 
 **Slides**: *No lecture - project work session*
+
 **Lab**: Lab 08 *(TBD)*
+
 **Additional Resources**: *Coming soon*
 
 ---
@@ -132,7 +162,9 @@ Apply Python skills to build a real-world application
 Complete and present your midterm project
 
 **Slides**: *No lecture - project presentations*
+
 **Lab**: Lab 09 *(TBD)*
+
 **Additional Resources**: *Coming soon*
 
 ---
@@ -141,9 +173,13 @@ Complete and present your midterm project
 Introduction to systems programming and Rust fundamentals
 
 **Slides**: [Week 10: Welcome to Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W10_Welcome_to_Rust.html)
+
 **Lab**: [Lab 10: Rust Basics](./labs/lab10/)
+
 **Notebook**: *Coming soon*
+
 **Lecture Notes**: *Coming soon*
+
 **Additional Resources**: *Coming soon*
 
 ---
@@ -152,9 +188,13 @@ Introduction to systems programming and Rust fundamentals
 Ownership, borrowing, and memory safety without garbage collection
 
 **Slides**: [Week 11: The Soul of Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W11_The_Soul_of_Rust.html)
+
 **Lab**: [Lab 11: Ownership and Borrowing](./labs/lab11/)
+
 **Notebook**: *Coming soon*
+
 **Lecture Notes**: *Coming soon*
+
 **Additional Resources**: *Coming soon*
 
 ---
@@ -163,9 +203,13 @@ Ownership, borrowing, and memory safety without garbage collection
 Creating command-line applications with Rust
 
 **Slides**: [Week 12: Building a CLI App](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W12_Building_a_CLI_App_in_Rust.html)
+
 **Lab**: [Lab 12: Rust CLI Application](./labs/lab12/)
+
 **Notebook**: *Coming soon*
+
 **Lecture Notes**: *Coming soon*
+
 **Additional Resources**: *Coming soon*
 
 ---
@@ -174,6 +218,7 @@ Creating command-line applications with Rust
 Collaborative work session and MVP check-ins
 
 **Project Work**: Focus on building your final application
+
 **Additional Resources**: *Coming soon*
 
 ---
@@ -182,6 +227,7 @@ Collaborative work session and MVP check-ins
 Presentation dry-runs and peer feedback
 
 **Project Work**: Refine and prepare presentations
+
 **Additional Resources**: *Coming soon*
 
 ---
