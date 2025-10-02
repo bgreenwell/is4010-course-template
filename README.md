@@ -118,6 +118,56 @@ Collaborative work sessions, MVP check-ins, and presentation preparation
 ### 🎉 Exam Week: Demo Day!
 Final project presentations
 
+---
+
+## 📓 Working with Jupyter Notebooks
+
+Many course topics include **interactive Jupyter Notebooks** that allow you to run and modify code examples directly. These notebooks are an excellent way to experiment with concepts covered in lectures.
+
+### Opening Notebooks in VS Code
+
+**VS Code has built-in Jupyter notebook support!** Here's how to get started:
+
+1. **Install the Jupyter extension** (if not already installed):
+   - Open VS Code
+   - Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
+   - Search for "Jupyter" by Microsoft
+   - Click Install
+
+2. **Open a notebook**:
+   - Click on any `.ipynb` file in the file explorer
+   - VS Code will automatically open it in the notebook editor
+   - You can also clone the [instructor materials repository](https://github.com/bgreenwell/is4010-instructor-materials) to access notebooks
+
+3. **Run code cells**:
+   - Click the play button (▶) next to any code cell
+   - Or use Shift+Enter to run a cell and move to the next one
+   - Python will execute the code and display results inline
+
+4. **Select your Python interpreter**:
+   - Click "Select Kernel" in the top-right corner
+   - Choose your Python 3.10+ environment
+
+### Helpful Resources
+- **[Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)** - Official VS Code documentation
+- **[Jupyter Notebook Basics](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)** - Learn notebook fundamentals
+- **[Python Interactive Window](https://code.visualstudio.com/docs/python/jupyter-support-py)** - VS Code Python features
+
+### Alternative: JupyterLab or Jupyter Notebook
+If you prefer the classic Jupyter interface:
+```bash
+# Install Jupyter
+pip install jupyter
+
+# Launch Jupyter Notebook
+jupyter notebook
+
+# Or launch JupyterLab (modern interface)
+jupyter lab
+```
+
+**💡 Pro tip**: VS Code's notebook support is excellent for keeping everything in one place alongside your Python files!
+
 ## 🤖 Our AI policy: a quick reminder
 
 This course operates on a new, modern principle: **use AI, but use it wisely.**
