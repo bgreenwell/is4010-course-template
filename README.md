@@ -71,7 +71,8 @@ Python basics, data structures, functions, error handling, and object-oriented p
 - [Week 05: Functions and Errors](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W05_Functions_and_Errors.ipynb)
 - [Week 06: Object-Oriented Programming](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W06_OOP.ipynb)
 
-**Additional Resources**: *Coming soon*
+**Lecture Notes**:
+- [Week 06: OOP Lecture Notes](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/slides/lecture-notes/W06_OOP_lecture_notes.md)
 
 ---
 
@@ -120,33 +121,53 @@ Final project presentations
 
 ---
 
-## 📓 Working with Jupyter Notebooks
+## 📓 Working with Course Materials
 
-Many course topics include **interactive Jupyter Notebooks** that complement the lecture slides. These notebooks allow you to run and modify code examples directly, providing hands-on practice with the concepts covered in class.
+Many course topics include **three complementary resources** to support your learning:
 
-### How Notebooks Complement the Course
+1. **Lecture Slides** - Visual presentation for in-class lectures
+2. **Interactive Jupyter Notebooks** - Hands-on coding practice
+3. **Lecture Notes** - Comprehensive written guides with examples and explanations
 
-**Notebooks are synchronized with lecture slides** and provide:
+### How These Materials Work Together
 
-- **Executable examples**: All code shown in slides can be run and modified in the notebook
-- **Hands-on exercises**: Practice problems with immediate feedback (8+ exercises per notebook)
-- **Self-paced learning**: Work through examples at your own speed, re-run cells as needed
-- **Enhanced explanations**: Additional context, tips, and common pitfalls beyond what's in slides
-- **Lab preparation**: Examples and patterns you'll use in your lab assignments
+**All three resources are synchronized** and provide:
 
-**Recommended workflow**:
-1. **Review slides** before or after class to understand concepts
-2. **Open the companion notebook** to practice with runnable code
-3. **Experiment freely** - modify examples to test your understanding
-4. **Complete exercises** to reinforce learning
-5. **Reference for labs** when working on assignments
+- **Same structure**: Topics covered in the same order across all formats
+- **Same examples**: Code examples consistent between slides, notebooks, and notes
+- **Different strengths**: Each format leverages its unique advantages
 
-**Current notebooks** (see course roadmap above for links):
-- Week 4: Data Structures (lists, dictionaries, sets, tuples)
-- Week 5: Functions and Error Handling
-- Week 6: Object-Oriented Programming
+#### Lecture Slides (.qmd → HTML)
+- Visual presentation format for live lectures
+- Key concepts with incremental reveals
+- Historical context and real-world examples
 
-More notebooks will be added as the semester progresses!
+#### Interactive Notebooks (.ipynb)
+- **Executable examples**: All code can be run and modified
+- **Hands-on exercises**: 8+ practice problems with immediate feedback
+- **Self-paced learning**: Work through examples at your own speed
+- **Lab preparation**: Patterns you'll use in assignments
+
+#### Lecture Notes (.md)
+- **Comprehensive written guide**: Detailed explanations of all concepts
+- **Code examples with annotations**: Deep dives into how code works
+- **Common questions answered**: Anticipates and addresses typical confusion
+- **Career context**: Industry applications and interview prep
+
+### Recommended Workflow
+
+1. **Before/after class**: Review slides to understand core concepts
+2. **Hands-on practice**: Open the companion notebook to code along
+3. **Deep understanding**: Read lecture notes for comprehensive explanations
+4. **Experiment freely**: Modify notebook examples to test understanding
+5. **Reference for labs**: Use all three when working on assignments
+
+**Current materials** (see course roadmap above for links):
+- Week 4: Data Structures (slides, notebook)
+- Week 5: Functions and Error Handling (slides, notebook)
+- Week 6: Object-Oriented Programming (slides, notebook, lecture notes)
+
+More materials will be added as the semester progresses!
 
 ### Opening Notebooks in VS Code
 
