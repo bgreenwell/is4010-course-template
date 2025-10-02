@@ -40,84 +40,154 @@ This repository is organized to make finding what you need simple.
 
 This is a high-level overview of our journey this semester. A more detailed schedule is available on Canvas.
 
-### 📚 Weeks 1-2: Foundations & Modern Tooling
-Learn Git, GitHub, and AI code assistants (Copilot & Gemini)
+---
 
-**Slides**:
-- [Week 01: Introduction](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W01_Introduction.html#/title-slide)
-- [Week 02: AI Copilots](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W02_AI_Copilots.html)
+### Week 01: Introduction to the Course
+Getting started with Git, GitHub, and modern development tools
 
-**Labs**: [Lab 01](./labs/lab01/) | [Lab 02](./labs/lab02/)
-
-**Notebooks**: *Coming soon*
-
+**Slides**: [Week 01: Introduction](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W01_Introduction.html#/title-slide)
+**Lab**: [Lab 01: Git and GitHub Setup](./labs/lab01/)
+**Notebook**: *Coming soon*
+**Lecture Notes**: *Coming soon*
 **Additional Resources**: *Coming soon*
 
 ---
 
-### 🐍 Weeks 3-6: Python Fundamentals with AI
-Python basics, data structures, functions, error handling, and object-oriented programming
+### Week 02: AI-Powered Development
+Learning to work with AI code assistants (GitHub Copilot & Google Gemini)
 
-**Slides**:
-- [Week 03: Python Basics](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W03_Python_Basics.html)
-- [Week 04: Data Structures](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W04_Data_Structures.html)
-- [Week 05: Functions and Errors](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W05_Functions_and_Errors.html)
-- [Week 06: Object-Oriented Programming](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W06_OOP.html)
-
-**Labs**: [Lab 03](./labs/lab03/) | [Lab 04](./labs/lab04/) | [Lab 05](./labs/lab05/) | [Lab 06](./labs/lab06/)
-
-**Notebooks**:
-- [Week 04: Data Structures](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W04_DataStructures.ipynb)
-- [Week 05: Functions and Errors](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W05_Functions_and_Errors.ipynb)
-- [Week 06: Object-Oriented Programming](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W06_OOP.ipynb)
-
-**Lecture Notes**:
-- [Week 06: OOP Lecture Notes](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/slides/lecture-notes/W06_OOP_lecture_notes.md)
-
----
-
-### 🔧 Weeks 7-9: Building a Python Application
-APIs, data handling, and the midterm project
-
-**Slides**:
-- [Week 07: Working with Data](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W07_Working_with_Data.html)
-
-**Labs**: [Lab 07](./labs/lab07/) | Lab 08 (TBD) | Lab 09 (TBD)
-
-**Notebooks**: *Coming soon*
-
+**Slides**: [Week 02: AI Copilots](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W02_AI_Copilots.html)
+**Lab**: [Lab 02: AI Coding Assistants](./labs/lab02/)
+**Notebook**: *Coming soon*
+**Lecture Notes**: *Coming soon*
 **Additional Resources**: *Coming soon*
 
 ---
 
-### 🦀 Weeks 10-12: New Frontiers - Rust
-Rust fundamentals, ownership and borrowing, and building a CLI application
+### Week 03: Python Basics
+Variables, data types, control flow, and fundamental programming concepts
 
-**Slides**:
-- [Week 10: Welcome to Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W10_Welcome_to_Rust.html)
-- [Week 11: The Soul of Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W11_The_Soul_of_Rust.html)
-- [Week 12: Building a CLI App in Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W12_Building_a_CLI_App_in_Rust.html)
-
-**Labs**: [Lab 10](./labs/lab10/) | [Lab 11](./labs/lab11/) | [Lab 12](./labs/lab12/)
-
-**Notebooks**: *Coming soon*
-
+**Slides**: [Week 03: Python Basics](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W03_Python_Basics.html)
+**Lab**: [Lab 03: Python Fundamentals](./labs/lab03/)
+**Notebook**: *Coming soon*
+**Lecture Notes**: *Coming soon*
 **Additional Resources**: *Coming soon*
 
 ---
 
-### 🚀 Weeks 13-14: Final Project
-Collaborative work sessions, MVP check-ins, and presentation preparation
+### Week 04: Data Structures
+Lists, dictionaries, tuples, and sets for organizing and manipulating data
 
-**Week 13**: Collaborative work session and MVP check-ins
-**Week 14**: Presentation dry-runs and peer feedback
-
+**Slides**: [Week 04: Data Structures](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W04_Data_Structures.html)
+**Lab**: [Lab 04: Data Structure Selection](./labs/lab04/)
+**Notebook**: [Week 04: Data Structures](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W04_DataStructures.ipynb)
+**Lecture Notes**: *Coming soon*
 **Additional Resources**: *Coming soon*
 
 ---
 
-### 🎉 Exam Week: Demo Day!
-Final project presentations
+### Week 05: Functions and Error Handling
+Creating reusable code with functions and managing errors gracefully
+
+**Slides**: [Week 05: Functions and Errors](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W05_Functions_and_Errors.html)
+**Lab**: [Lab 05: Functions and Error Handling](./labs/lab05/)
+**Notebook**: [Week 05: Functions and Errors](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W05_Functions_and_Errors.ipynb)
+**Lecture Notes**: *Coming soon*
+**Additional Resources**: *Coming soon*
+
+---
+
+### Week 06: Object-Oriented Programming
+Classes, objects, inheritance, and building scalable software architectures
+
+**Slides**: [Week 06: Object-Oriented Programming](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W06_OOP.html)
+**Lab**: [Lab 06: OOP with Books](./labs/lab06/)
+**Notebook**: [Week 06: OOP](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W06_OOP.ipynb)
+**Lecture Notes**: [Week 06: OOP Lecture Notes](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/slides/lecture-notes/W06_OOP_lecture_notes.md)
+**Additional Resources**: *Coming soon*
+
+---
+
+### Week 07: Working with Data
+APIs, data processing, and external data sources
+
+**Slides**: [Week 07: Working with Data](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W07_Working_with_Data.html)
+**Lab**: [Lab 07: Data Processing](./labs/lab07/)
+**Notebook**: *Coming soon*
+**Lecture Notes**: *Coming soon*
+**Additional Resources**: *Coming soon*
+
+---
+
+### Week 08: Midterm Project (Part 1)
+Apply Python skills to build a real-world application
+
+**Slides**: *No lecture - project work session*
+**Lab**: Lab 08 *(TBD)*
+**Additional Resources**: *Coming soon*
+
+---
+
+### Week 09: Midterm Project (Part 2)
+Complete and present your midterm project
+
+**Slides**: *No lecture - project presentations*
+**Lab**: Lab 09 *(TBD)*
+**Additional Resources**: *Coming soon*
+
+---
+
+### Week 10: Welcome to Rust
+Introduction to systems programming and Rust fundamentals
+
+**Slides**: [Week 10: Welcome to Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W10_Welcome_to_Rust.html)
+**Lab**: [Lab 10: Rust Basics](./labs/lab10/)
+**Notebook**: *Coming soon*
+**Lecture Notes**: *Coming soon*
+**Additional Resources**: *Coming soon*
+
+---
+
+### Week 11: The Soul of Rust
+Ownership, borrowing, and memory safety without garbage collection
+
+**Slides**: [Week 11: The Soul of Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W11_The_Soul_of_Rust.html)
+**Lab**: [Lab 11: Ownership and Borrowing](./labs/lab11/)
+**Notebook**: *Coming soon*
+**Lecture Notes**: *Coming soon*
+**Additional Resources**: *Coming soon*
+
+---
+
+### Week 12: Building a CLI App in Rust
+Creating command-line applications with Rust
+
+**Slides**: [Week 12: Building a CLI App](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W12_Building_a_CLI_App_in_Rust.html)
+**Lab**: [Lab 12: Rust CLI Application](./labs/lab12/)
+**Notebook**: *Coming soon*
+**Lecture Notes**: *Coming soon*
+**Additional Resources**: *Coming soon*
+
+---
+
+### Week 13: Final Project Workshop
+Collaborative work session and MVP check-ins
+
+**Project Work**: Focus on building your final application
+**Additional Resources**: *Coming soon*
+
+---
+
+### Week 14: Final Project Polish
+Presentation dry-runs and peer feedback
+
+**Project Work**: Refine and prepare presentations
+**Additional Resources**: *Coming soon*
+
+---
+
+### Exam Week: Demo Day! 🎉
+Final project presentations and course celebration
 
 ---
 
