@@ -126,7 +126,7 @@ Classes, objects, inheritance, and building scalable software architectures
 
 **Notebook**: [Week 06: OOP](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W06_OOP.ipynb)
 
-**Lecture Notes**: [Week 06: OOP Lecture Notes](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/slides/lecture-notes/W06_OOP_lecture_notes.md)
+**Lecture Notes**: [Week 06: OOP](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/slides/lecture-notes/W06_OOP_notes.md)
 
 **Additional Resources**: *Coming soon*
 
