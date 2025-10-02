@@ -122,7 +122,31 @@ Final project presentations
 
 ## 📓 Working with Jupyter Notebooks
 
-Many course topics include **interactive Jupyter Notebooks** that allow you to run and modify code examples directly. These notebooks are an excellent way to experiment with concepts covered in lectures.
+Many course topics include **interactive Jupyter Notebooks** that complement the lecture slides. These notebooks allow you to run and modify code examples directly, providing hands-on practice with the concepts covered in class.
+
+### How Notebooks Complement the Course
+
+**Notebooks are synchronized with lecture slides** and provide:
+
+- **Executable examples**: All code shown in slides can be run and modified in the notebook
+- **Hands-on exercises**: Practice problems with immediate feedback (8+ exercises per notebook)
+- **Self-paced learning**: Work through examples at your own speed, re-run cells as needed
+- **Enhanced explanations**: Additional context, tips, and common pitfalls beyond what's in slides
+- **Lab preparation**: Examples and patterns you'll use in your lab assignments
+
+**Recommended workflow**:
+1. **Review slides** before or after class to understand concepts
+2. **Open the companion notebook** to practice with runnable code
+3. **Experiment freely** - modify examples to test your understanding
+4. **Complete exercises** to reinforce learning
+5. **Reference for labs** when working on assignments
+
+**Current notebooks** (see course roadmap above for links):
+- Week 4: Data Structures (lists, dictionaries, sets, tuples)
+- Week 5: Functions and Error Handling
+- Week 6: Object-Oriented Programming
+
+More notebooks will be added as the semester progresses!
 
 ### Opening Notebooks in VS Code
 
