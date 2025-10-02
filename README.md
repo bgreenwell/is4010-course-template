@@ -94,7 +94,7 @@ Lists, dictionaries, tuples, and sets for organizing and manipulating data
 
 **Lab**: [Lab 04: Data Structure Selection](./labs/lab04/)
 
-**Notebook**: [Week 04: Data Structures](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W04_DataStructures.ipynb)
+**Notebook**: [Week 04: Data Structures](./notebooks/IS4010_W04_DataStructures.ipynb)
 
 **Lecture Notes**: *Coming soon*
 
@@ -109,7 +109,7 @@ Creating reusable code with functions and managing errors gracefully
 
 **Lab**: [Lab 05: Functions and Error Handling](./labs/lab05/)
 
-**Notebook**: [Week 05: Functions and Errors](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W05_Functions_and_Errors.ipynb)
+**Notebook**: [Week 05: Functions and Errors](./notebooks/IS4010_W05_Functions_and_Errors.ipynb)
 
 **Lecture Notes**: *Coming soon*
 
@@ -124,9 +124,9 @@ Classes, objects, inheritance, and building scalable software architectures
 
 **Lab**: [Lab 06: OOP with Books](./labs/lab06/)
 
-**Notebook**: [Week 06: OOP](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/notebooks/IS4010_W06_OOP.ipynb)
+**Notebook**: [Week 06: OOP](./notebooks/IS4010_W06_OOP.ipynb)
 
-**Lecture Notes**: [Week 06: OOP](https://github.com/bgreenwell/is4010-instructor-materials/blob/main/slides/lecture-notes/W06_OOP_notes.md)
+**Lecture Notes**: [Week 06: OOP](./resources/lecture-notes/W06_OOP_notes.md)
 
 **Additional Resources**: *Coming soon*
 
@@ -296,9 +296,9 @@ More materials will be added as the semester progresses!
    - Click Install
 
 2. **Open a notebook**:
+   - Navigate to the `notebooks/` folder in this repository
    - Click on any `.ipynb` file in the file explorer
    - VS Code will automatically open it in the notebook editor
-   - You can also clone the [instructor materials repository](https://github.com/bgreenwell/is4010-instructor-materials) to access notebooks
 
 3. **Run code cells**:
    - Click the play button (▶) next to any code cell
