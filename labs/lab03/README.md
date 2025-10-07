@@ -404,7 +404,7 @@ jobs:
       # Step 4: Run the test suite
       - name: Test with pytest
         run: |
-          pytest lab03/
+          pytest
 ```
 
 **💡 Understanding the workflow file:**
@@ -415,6 +415,125 @@ jobs:
 - **`uses: actions/checkout@v3`**: Downloads your repository code
 - **`uses: actions/setup-python@v4`**: Installs Python
 - **`run: |`**: Executes shell commands on the virtual machine
+- **`pytest`**: Runs all test files in the repository (discovers `test_*.py` files automatically)
+
+**Important note about pytest discovery:**
+- The command `pytest` (without specifying a directory) will automatically find and run ALL test files in your repository
+- This means your workflow will work for Lab 03, Lab 04, Lab 05, and all future labs automatically
+- No need to update the workflow file for each new lab!
+
+-----
+
+## Step 3.3: Create a professional README with CI/CD badge 📄
+
+A professional README file serves as the front page of your repository. It's the first thing visitors see and should clearly communicate what your project is about. Adding a CI/CD badge shows the current test status at a glance - a standard practice in professional development.
+
+**Why a README matters:**
+- **First impressions**: Shows professionalism to potential employers and collaborators
+- **Project overview**: Clearly communicates the purpose and structure of your repository
+- **Status visibility**: CI/CD badge instantly shows if tests are passing
+- **Portfolio value**: Well-documented repositories demonstrate communication skills
+- **Industry standard**: All professional repositories have comprehensive README files
+
+### Instructions for creating your README
+
+1. In the **root** of your `is4010-labs` repository (not inside any lab folder), create a file named `README.md`
+2. Copy the template below and customize it with your information
+
+### README.md template
+
+```markdown
+# IS4010 Labs - [Your Name]
+
+![CI/CD Pipeline](https://github.com/[YOUR-USERNAME]/[YOUR-REPO-NAME]/actions/workflows/main.yml/badge.svg)
+
+This repository contains all lab assignments for **IS4010: AI-Enhanced Application Development** at the University of Cincinnati's Lindner College of Business.
+
+## 📚 Course Information
+
+- **Course**: IS4010 - AI-Enhanced Application Development
+- **Instructor**: Brandon Greenwell
+- **Semester**: Fall 2024
+- **Institution**: University of Cincinnati, Lindner College of Business
+
+## 🧪 Automated Testing
+
+This repository uses **GitHub Actions** for continuous integration. The badge above shows the current status of all tests:
+- ✅ **Green checkmark**: All tests passing
+- ❌ **Red X**: Some tests failing
+
+Tests automatically run on every push to ensure code quality and correctness.
+
+## 📂 Repository Structure
+
+```
+is4010-[username]-labs/
+├── .github/workflows/     # CI/CD automation
+├── lab01/                 # Introduction to Git and GitHub
+├── lab02/                 # AI-assisted Python development
+├── lab03/                 # Python basics and automated testing
+├── lab04/                 # [Future labs will be added here]
+└── README.md             # This file
+```
+
+## 🚀 Labs Completed
+
+- [x] **Lab 01**: Git and GitHub fundamentals
+- [x] **Lab 02**: AI-assisted function development
+- [x] **Lab 03**: Python basics, testing, and CI/CD setup
+- [ ] **Lab 04**: [Coming soon]
+
+## 🛠️ Technologies Used
+
+- **Python 3.10+**: Primary programming language
+- **pytest**: Testing framework for automated test execution
+- **GitHub Actions**: CI/CD pipeline for automated testing
+- **Git/GitHub**: Version control and collaboration
+
+## 📝 Notes
+
+This repository demonstrates modern software development practices including:
+- Version control with Git
+- Automated testing with pytest
+- Continuous Integration/Continuous Deployment (CI/CD)
+- AI-assisted development workflows
+- Professional documentation standards
+
+---
+
+**About this course**: IS4010 explores application development enhanced by AI tools, covering Python fundamentals, testing practices, and modern development workflows. Students learn to leverage AI assistants while building strong programming fundamentals.
+```
+
+### Customizing your README
+
+**Required replacements:**
+1. **Line 1**: Replace `[Your Name]` with your actual name
+2. **Line 3**: Replace `[YOUR-USERNAME]` with your GitHub username (e.g., `MaxwellMiller18`)
+3. **Line 3**: Replace `[YOUR-REPO-NAME]` with your repository name (e.g., `Is4010-MaxwellMiller18-Lab`)
+
+**Example of a correctly formatted badge URL:**
+```markdown
+![CI/CD Pipeline](https://github.com/MaxwellMiller18/Is4010-MaxwellMiller18-Lab/actions/workflows/main.yml/badge.svg)
+```
+
+**Optional customizations:**
+- Add your major and graduation year to Course Information section
+- Update the "Labs Completed" checklist as you finish each lab
+- Add personal notes or learning reflections in the Notes section
+- Include links to specific labs or projects you're proud of
+
+### Understanding the CI/CD badge
+
+The badge in your README shows real-time test status:
+- **Badge URL format**: `https://github.com/[USERNAME]/[REPO]/actions/workflows/main.yml/badge.svg`
+- **Updates automatically**: Changes from green to red if tests fail
+- **Clickable**: Links directly to your GitHub Actions workflow runs
+- **Professional standard**: Used by major open-source projects (Django, React, pandas, etc.)
+
+The badge pulls live data from your GitHub Actions workflow named `main.yml`. When you push code:
+1. GitHub Actions runs your tests
+2. Badge updates to reflect pass/fail status
+3. Anyone viewing your README sees current project health
 
 -----
 
@@ -435,11 +554,12 @@ is4010-[your-username]-labs/
 ├── lab03/
 │   ├── lab03.py              # Mad Libs function and guessing game
 │   └── test_lab03.py         # Test file for both functions
-└── README.md                 # Optional: Repository description (auto-created by GitHub)
+└── README.md                 # Professional repository documentation with CI/CD badge
 ```
 
 **Key points about this structure:**
-- **`.github/workflows/main.yml`**: Enables automated testing on every push
+- **`.github/workflows/main.yml`**: Enables automated testing on every push (works for all labs automatically!)
+- **`README.md`**: Professional repository overview with CI/CD badge showing test status
 - **`lab01/hello.py`**: Your first Python program from Lab 01
 - **`lab02/lab02.py`**: AI-assisted functions (factorial, prime checker, etc.) from Lab 02
 - **`lab02/lab02_prompts.md`**: Prompt engineering solutions and AI debugging examples from Lab 02
@@ -447,16 +567,36 @@ is4010-[your-username]-labs/
 - **`lab03/test_lab03.py`**: Contains tests for both functions to ensure they work correctly
 - **Hidden folder**: The `.github` folder starts with a dot, making it a hidden folder that GitHub uses for configuration
 
-This organized structure makes it easy to find your work and ensures the automated testing system can locate and run your tests properly.
+This organized structure makes it easy to find your work, presents a professional image to potential employers, and ensures the automated testing system can locate and run your tests properly.
 
 -----
 
 ## Final step: Pushing and verification
 
-1.  You should now have three new/modified files: `lab03/lab03.py`, `lab03/test_lab03.py`, and `.github/workflows/main.yml`.
-2.  Use the `git add`, `git commit`, and `git push` commands to send all three files to your github repository.
-3.  Navigate to your repository page on github and click on the **actions** tab.
-4.  You should see your workflow running. After a minute or two, it should complete with a **green checkmark**. This checkmark is your confirmation that your code is correct and your automated grading is working\!
+1. You should now have **four** new/modified files:
+   - `lab03/lab03.py` (Mad Libs and guessing game functions)
+   - `lab03/test_lab03.py` (test suite)
+   - `.github/workflows/main.yml` (CI/CD workflow)
+   - `README.md` (professional repository documentation)
+
+2. Use git commands to commit and push all files to your GitHub repository:
+   ```bash
+   git add .
+   git commit -m "Complete Lab 03: Python basics, testing, CI/CD, and README"
+   git push
+   ```
+
+3. Navigate to your repository page on GitHub and verify:
+   - Click the **Actions** tab to see your workflow running
+   - After 1-2 minutes, it should complete with a **green checkmark ✅**
+   - Return to your repository home page
+   - Verify your README displays correctly with the CI/CD badge showing
+
+4. **Success indicators:**
+   - ✅ Green checkmark in Actions tab (all tests passing)
+   - ✅ CI/CD badge in README shows "passing" status
+   - ✅ Professional README appears on repository home page
+   - ✅ All four files committed and visible in repository
 
 ## Submission
 
@@ -503,6 +643,30 @@ Programming and automated testing can be challenging! Here are solutions to comm
   - Check that you're returning the story string, not printing it
   - Example: `return f"The {adjective} {noun} {verb}..."` not `print(f"The {adjective} {noun} {verb}...")`
 
+### **Problem: CI/CD badge not showing or showing "no status"**
+- **Cause**: Incorrect badge URL or workflow hasn't run yet
+- **Solution**:
+  - Verify the badge URL format exactly matches: `https://github.com/[USERNAME]/[REPO]/actions/workflows/main.yml/badge.svg`
+  - Make sure you replaced `[USERNAME]` and `[REPO]` with your actual values (no brackets!)
+  - Push a commit to trigger the workflow - the badge needs at least one workflow run
+  - Check that your workflow file is named exactly `main.yml` (not `main.yaml` or `workflow.yml`)
+
+### **Problem: Badge shows "failing" but tests pass locally**
+- **Cause**: Different behavior between local and CI environment
+- **Solution**:
+  - Click the badge or go to Actions tab to see detailed error messages
+  - Check that all files are committed and pushed (use `git status`)
+  - Verify test file is in the correct location (`lab03/test_lab03.py`)
+  - Make sure there are no `import` errors in the GitHub Actions log
+
+### **Problem: README not displaying on repository home page**
+- **Cause**: File not in root directory or incorrect filename
+- **Solution**:
+  - Make sure `README.md` is in the **root** of your repository, not inside `lab03/`
+  - File must be named exactly `README.md` (all caps, `.md` extension)
+  - Verify it's committed and pushed to GitHub
+  - Refresh your browser or clear cache if you just pushed it
+
 ### **Still stuck? Use AI assistance! 🤖**
 
 Don't hesitate to use AI tools to help debug issues:
@@ -521,7 +685,10 @@ Don't hesitate to use AI tools to help debug issues:
 
 - [ ] `lab03/lab03.py` file exists and contains both required functions
 - [ ] `lab03/test_lab03.py` file exists with the provided test code (unmodified)
-- [ ] `.github/workflows/main.yml` file exists with the provided workflow configuration
+- [ ] `.github/workflows/main.yml` file exists with the provided workflow configuration (uses `pytest` not `pytest lab03/`)
+- [ ] `README.md` file exists in repository root with CI/CD badge
+- [ ] Badge URL customized with your username and repository name
 - [ ] All files have been committed and pushed to GitHub
-- [ ] GitHub Actions workflow shows a **green checkmark ✅**
+- [ ] GitHub Actions workflow shows a **green checkmark ✅** in Actions tab
+- [ ] CI/CD badge in README shows "passing" status
 - [ ] You can run your guessing game locally by executing `python lab03/lab03.py`
