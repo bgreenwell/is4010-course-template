@@ -1,8 +1,8 @@
 # Midterm Project: AI-Assisted CLI Application
 
-**Due date:** TBD
+**Due Date: Sunday, October 19, 2025 at 11:59 PM**
 
-**Total points:** TBD
+**Total Points: 17 (10% of final grade)**
 
 ## 📋 TL;DR - What You're Building
 
@@ -544,38 +544,35 @@ your-project-name/
 
 Your project will be assessed on the following easily-gradable criteria:
 
-### **✅ Automated Assessment (Easy to Grade)**
+### **✅ Automated Assessment (Easy to Grade)** - 8 points
 
 | Criterion | Points | How We Check |
 |-----------|--------|--------------|
-| **Repository exists and is public** | TBD | GitHub URL submission |
-| **CI/CD pipeline configured and passing** | TBD | Green checkmark in Actions tab |
-| **All tests pass** | TBD | GitHub Actions status |
-| **README.md exists with all required sections** | TBD | File presence and section headers |
-| **`AGENTS.md` exists with project context** | TBD | File presence and content |
-| **requirements.txt exists** | TBD | File presence |
-| **Tests directory exists with test files** | TBD | Directory and file check |
-| **Badges in README** | TBD | Visual inspection |
+| **Repository exists and is public** | 1 | GitHub URL submission |
+| **CI/CD pipeline configured and passing** | 2 | Green checkmark in Actions tab |
+| **All tests pass** | 1 | GitHub Actions status |
+| **README.md exists with all required sections** | 1 | File presence and section headers |
+| **`AGENTS.md` exists with project context** | 1 | File presence and content |
+| **requirements.txt exists** | 1 | File presence |
+| **Tests directory exists with test files** | 1 | Directory and file check |
 
-### **📋 Manual Assessment (Moderate Grading Effort)**
-
-| Criterion | Points | How We Check |
-|-----------|--------|--------------|
-| **CLI runs successfully** | TBD | Execute: `python -m project_name --help` |
-| **API integration works** | TBD | Run CLI commands and verify output |
-| **Code has docstrings** | TBD | Scan for docstring presence |
-| **Error handling implemented** | TBD | Check for try/except blocks |
-| **Code organization and clarity** | TBD | Review file structure and naming |
-
-### **🔍 Quality Assessment (Detailed Review)**
+### **📋 Manual Assessment (Moderate Grading Effort)** - 5 points
 
 | Criterion | Points | How We Check |
 |-----------|--------|--------------|
-| **Professional README quality** | TBD | Content clarity, examples, completeness |
-| **Test coverage and quality** | TBD | Review test files for mocking and assertions |
-| **Code quality and style** | TBD | PEP 8 compliance, readability |
-| **AI assistance documentation** | TBD | `AGENTS.md` quality and completeness |
-| **Overall functionality and creativity** | TBD | Does it work well and solve a useful problem? |
+| **CLI runs successfully** | 1 | Execute: `python -m project_name --help` |
+| **API integration works** | 2 | Run CLI commands and verify output |
+| **Code has docstrings** | 1 | Scan for docstring presence |
+| **Error handling implemented** | 1 | Check for try/except blocks |
+
+### **🔍 Quality Assessment (Detailed Review)** - 4 points
+
+| Criterion | Points | How We Check |
+|-----------|--------|--------------|
+| **Professional README quality** | 1 | Content clarity, examples, completeness |
+| **Test coverage and quality** | 1 | Review test files for mocking and assertions |
+| **Code quality and style** | 1 | PEP 8 compliance, readability |
+| **Overall functionality and creativity** | 1 | Does it work well and solve a useful problem? |
 
 **💡 Grading priorities:**
 1. **Does it work?** - Tests pass, CLI runs without errors
@@ -1057,8 +1054,19 @@ python -m src.main invalid_command
 
 ### **What to Submit:**
 
-1. **GitHub repository URL** - Must be public
-2. **Brief description** - 1-2 sentences about what your CLI does
+Submit your **public GitHub repository URL** to Canvas by **Sunday, October 19, 2025 at 11:59 PM**.
+
+**Canvas submission format:**
+1. Navigate to the Midterm Project assignment on Canvas
+2. Submit the URL to your public GitHub repository (e.g., `https://github.com/yourusername/your-project-name`)
+3. Add a brief description (1-2 sentences) about what your CLI does in the Canvas comments box
+
+**Example submission:**
+```
+Repository URL: https://github.com/student123/chuck-norris-cli
+Description: A command-line tool that fetches Chuck Norris jokes by category,
+provides random jokes, and allows searching jokes by keyword.
+```
 
 ### **Repository Checklist:**
 
@@ -1075,11 +1083,7 @@ Before submitting, verify your repository has:
 - [ ] **Badges in README** - At minimum: test status badge
 - [ ] **LICENSE file** - MIT or similar open source license
 
-### **How to Submit:**
-
-[TBD - Submission method will be provided]
-
-### **Verification Steps:**
+### **Verification Steps Before Canvas Submission:**
 
 1. **Clone your repository fresh** in a new location
 2. **Install dependencies:** `pip install -r requirements.txt`
