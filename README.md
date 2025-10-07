@@ -133,13 +133,13 @@ Classes, objects, inheritance, and building scalable software architectures
 ---
 
 ### Week 07: Working with Data
-APIs, data processing, and external data sources
+Files, JSON, APIs, and external data integration
 
 **Slides**: [Week 07: Working with Data](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W07_Working_with_Data.html)
 
 **Lab**: [Lab 07: Data Processing](./labs/lab07/)
 
-**Notebook**: *Coming soon*
+**Notebook**: [Week 07: Working with Data](./notebooks/IS4010_W07_Working_with_Data.ipynb)
 
 **Lecture Notes**: *Coming soon*
 
