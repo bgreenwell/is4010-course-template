@@ -147,34 +147,32 @@ Files, JSON, APIs, and external data integration
 
 ---
 
-### Week 08: Midterm Project (Part 1)
-Apply Python skills to build a real-world application
+### Week 08: Building Professional Python Applications
+Command-line interfaces, package structure, and production-ready code
 
-**Slides**: *No lecture - project work session*
+**Slides**: [Week 08: Professional Python](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W08_Professional_Python.html)
 
-**Lab**: Lab 08 *(TBD)*
+**Lab**: *Work session - apply concepts to your midterm project*
 
-**Additional Resources**: *Coming soon*
+**Notebook**: [Week 08: Professional Python](./notebooks/IS4010_W08_Professional_Python.ipynb)
 
----
+**Lecture Notes**: [Week 08: Professional Python](./resources/lecture-notes/W08_Professional_Python_notes.md)
 
-### Week 09: Midterm Project (Part 2)
-Complete and present your midterm project
-
-**Slides**: *No lecture - project presentations*
-
-**Lab**: Lab 09 *(TBD)*
-
-**Additional Resources**: *Coming soon*
+**Additional Resources**:
+- [argparse Tutorial](https://docs.python.org/3/howto/argparse.html)
+- [Python Packaging Guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+- [pyproject.toml Specification](https://packaging.python.org/en/latest/specifications/pyproject-toml/)
 
 ---
 
-### Week 10: Welcome to Rust
+### Week 09: Welcome to Rust
 Introduction to systems programming and Rust fundamentals
 
-**Slides**: [Week 10: Welcome to Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W10_Welcome_to_Rust.html)
+**Note**: *Midterm project due Sunday at 11:59 PM*
 
-**Lab**: [Lab 10: Rust Basics](./labs/lab10/)
+**Slides**: [Week 09: Welcome to Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W09_Welcome_to_Rust.html)
+
+**Lab**: [Lab 09: Rust Basics](./labs/lab09/)
 
 **Notebook**: *Coming soon*
 
@@ -184,12 +182,12 @@ Introduction to systems programming and Rust fundamentals
 
 ---
 
-### Week 11: The Soul of Rust
+### Week 10: The Soul of Rust
 Ownership, borrowing, and memory safety without garbage collection
 
-**Slides**: [Week 11: The Soul of Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W11_The_Soul_of_Rust.html)
+**Slides**: [Week 10: The Soul of Rust](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W10_The_Soul_of_Rust.html)
 
-**Lab**: [Lab 11: Ownership and Borrowing](./labs/lab11/)
+**Lab**: [Lab 10: Ownership and Borrowing](./labs/lab10/)
 
 **Notebook**: *Coming soon*
 
@@ -199,12 +197,27 @@ Ownership, borrowing, and memory safety without garbage collection
 
 ---
 
-### Week 12: Building a CLI App in Rust
+### Week 11: Building a CLI App in Rust
 Creating command-line applications with Rust
 
-**Slides**: [Week 12: Building a CLI App](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W12_Building_a_CLI_App_in_Rust.html)
+**Slides**: [Week 11: Building a CLI App](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W11_Building_a_CLI_App_in_Rust.html)
 
-**Lab**: [Lab 12: Rust CLI Application](./labs/lab12/)
+**Lab**: [Lab 11: Rust CLI Application](./labs/lab11/)
+
+**Notebook**: *Coming soon*
+
+**Lecture Notes**: *Coming soon*
+
+**Additional Resources**: *Coming soon*
+
+---
+
+### Week 12: Final Project Kickoff
+Introduction to final project and team formation
+
+**Slides**: *Project introduction session*
+
+**Lab**: [Lab 12: Final Project Proposal](./labs/lab12/)
 
 **Notebook**: *Coming soon*
 
