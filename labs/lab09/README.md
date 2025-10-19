@@ -100,11 +100,11 @@ To compile and run Rust programs on your local machine, you need to install the 
 
 ### Your task
 
-1. **Install Rust** by following the official instructions at [rustup.rs](https://rustup.rs/):
-   - **macOS/Linux**: Open Terminal and run: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-   - **Windows**: Download and run the installer from [rustup.rs](https://rustup.rs/)
+1. **Install Rust** by following the instructions in the [course SETUP_GUIDE.md](../../resources/SETUP_GUIDE.md#5-rust)
+   - The guide covers all platforms (Windows, macOS, Linux)
+   - **Windows users**: Make sure you're using Git Bash as recommended in the [SETUP_GUIDE](../../resources/SETUP_GUIDE.md#recommendations-for-windows-users)
 
-2. **Restart your terminal** after installation (or run `source $HOME/.cargo/env` on macOS/Linux)
+2. **Restart your terminal** after installation
 
 3. **Verify your installation** by running these commands:
    ```bash
@@ -151,6 +151,7 @@ Now that Rust is installed, you'll create your first [Cargo project](https://doc
    ```bash
    cd path/to/is4010-labs
    ```
+   > **Note for all platforms**: Forward slashes (`/`) work in Git Bash, PowerShell, and Unix terminals
 
 2. Create a new subdirectory for Lab 09:
    ```bash
@@ -632,13 +633,14 @@ After the deadline, the instructor will:
 ### Installation Issues
 
 **Problem**: "Command not found: cargo" after installation
-- **Solution**: Restart your terminal or run `source $HOME/.cargo/env` (macOS/Linux). On Windows, restart your command prompt.
+- **Solution**: Restart your terminal. The PATH environment variable needs to be reloaded to include Cargo
+- **Windows users**: Make sure you're using Git Bash (see [SETUP_GUIDE.md](../../resources/SETUP_GUIDE.md#recommendations-for-windows-users))
 - **Why**: The PATH environment variable needs to be reloaded to include Cargo
 
-**Problem**: rustup installation fails with "curl: command not found"
-- **Solution Windows**: Download the installer directly from [rustup.rs](https://rustup.rs/)
-- **Solution macOS**: Install Xcode Command Line Tools first: `xcode-select --install`
-- **Solution Linux**: Install curl: `sudo apt install curl` (Ubuntu/Debian) or `sudo yum install curl` (Fedora/RHEL)
+**Problem**: Rust installation issues on Windows
+- **Solution**: See the [course SETUP_GUIDE.md](../../resources/SETUP_GUIDE.md#5-rust) for complete Rust installation instructions
+- **Common fix**: Ensure you're using Git Bash, not Command Prompt or PowerShell alone
+- **Terminal setup**: Follow the [Windows Terminal + Git Bash setup guide](../../resources/SETUP_GUIDE.md#recommendations-for-windows-users)
 
 **Problem**: Permission denied during installation
 - **Solution**: Don't use `sudo` with rustup. It installs to your user directory (`~/.cargo`), not system-wide
