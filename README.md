@@ -174,11 +174,15 @@ Introduction to systems programming and Rust fundamentals
 
 **Lab**: [Lab 09: Rust Basics](./labs/lab09/)
 
-**Notebook**: *Coming soon*
+**Interactive Exercises**: [Rust Playground Exercises](./resources/lecture-notes/W09_Welcome_to_Rust_exercises.md)
 
-**Lecture Notes**: *Coming soon*
+**Lecture Notes**: [Week 09: Welcome to Rust](./resources/lecture-notes/W09_Welcome_to_Rust_notes.md)
 
-**Additional Resources**: *Coming soon*
+**Additional Resources**:
+- [The Rust Programming Language Book](https://doc.rust-lang.org/book/)
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+- [Rust Playground](https://play.rust-lang.org/)
+- [Rustlings - Practice Exercises](https://github.com/rust-lang/rustlings/)
 
 ---
 
