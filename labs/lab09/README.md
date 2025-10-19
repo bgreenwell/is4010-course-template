@@ -542,48 +542,88 @@ jobs:
 
 ---
 
-## Submission
+## Submission & Grading
 
-When you're ready to submit:
+**IMPORTANT**: You will be graded **entirely** based on the code in your GitHub repository. There is no separate Canvas submission.
 
-1. **Verify all tests pass** locally:
+### Grading Criteria
+
+Your grade is determined by:
+1. **✅ GitHub Actions tests pass** (70% - automated testing)
+2. **📝 Code quality and completion** (30% - manual review)
+   - All 5 functions implemented correctly
+   - Code follows Rust conventions (`cargo fmt` applied)
+   - No `target/` directory committed
+   - Proper repository structure
+
+### Submission Checklist
+
+**Before the deadline, ensure:**
+
+1. ✅ **All tests pass locally**:
    ```bash
    cd lab09/rust_basics
    cargo test
    ```
 
-2. **Create a file documenting your Playground work**:
+2. ✅ **Optional: Document your Playground work**:
    ```bash
    cd ..  # Back to lab09/
    touch playground_links.md
+   # Paste share links from Rust Playground exercises
    ```
 
-3. In `playground_links.md`, paste the share links from your Rust Playground exercises (Exercises 1-4 minimum)
-
-4. **Stage and commit** your Lab 09 work:
+3. ✅ **Format your code**:
    ```bash
+   cd rust_basics
+   cargo fmt
+   ```
+
+4. ✅ **Commit and push all changes**:
+   ```bash
+   cd ../..  # Back to repo root
    git add lab09/
    git commit -m "Complete Lab 09: Rust basics"
-   ```
-
-5. **Push to GitHub**:
-   ```bash
    git push origin main
    ```
 
-6. **Verify GitHub Actions passes**:
+5. ✅ **Verify GitHub Actions passes**:
    - Go to your repository on GitHub
    - Click the "Actions" tab
-   - Your most recent workflow should show green checkmarks ✅
+   - Your most recent workflow should show **green checkmarks ✅**
    - Both `test-python` and `test-rust` jobs should succeed
 
-7. **Verify on GitHub** that your `lab09/` folder appears with:
-   - `rust_basics/src/main.rs` (your code)
-   - `rust_basics/Cargo.toml`
-   - `playground_links.md`
-   - NO `target/` directory (should be ignored by Git)
+6. ✅ **Verify repository structure on GitHub**:
+   - `lab09/rust_basics/src/main.rs` exists (your code)
+   - `lab09/rust_basics/Cargo.toml` exists
+   - `lab09/playground_links.md` exists (optional but recommended)
+   - **NO** `lab09/rust_basics/target/` directory (should be in .gitignore)
 
-8. **Submit the GitHub repository URL** on [Canvas](https://uc.instructure.com/)
+### How You'll Be Graded
+
+**Automated Testing (70 points):**
+- GitHub Actions runs `cargo test` on your code
+- Each of 5 functions has tests worth 14 points
+- Tests must pass for full credit
+- Instructor can see test results in GitHub Actions
+
+**Code Quality (30 points):**
+- Instructor manually reviews your repository
+- Checks for proper implementation
+- Verifies code is formatted (`cargo fmt`)
+- Ensures no build artifacts committed
+
+### Deadline
+
+**Due: Sunday, October 26 at 11:59 PM**
+
+After the deadline, the instructor will:
+1. Clone your repository
+2. Check GitHub Actions results
+3. Review your code manually
+4. Post grades to Canvas
+
+**No Canvas submission required** - your GitHub repository IS your submission!
 
 ---
 
