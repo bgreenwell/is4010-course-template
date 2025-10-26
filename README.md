@@ -193,41 +193,51 @@ Ownership, borrowing, and memory safety without garbage collection
 
 **Lab**: [Lab 10: Ownership and Borrowing](./labs/lab10/)
 
-**Notebook**: *Coming soon*
+**Interactive Exercises**: [Ownership & Borrowing Exercises](./resources/lecture-notes/W10_The_Soul_of_Rust_exercises.md)
 
-**Lecture Notes**: *Coming soon*
+**Lecture Notes**: [Week 10: The Soul of Rust](./resources/lecture-notes/W10_The_Soul_of_Rust_notes.md)
 
-**Additional Resources**: *Coming soon*
-
----
-
-### Week 11: Building a CLI App in Rust
-Creating command-line applications with Rust
-
-**Slides**: [Week 11: Building a CLI App](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W11_Building_a_CLI_App_in_Rust.html)
-
-**Lab**: [Lab 11: Rust CLI Application](./labs/lab11/)
-
-**Notebook**: *Coming soon*
-
-**Lecture Notes**: *Coming soon*
-
-**Additional Resources**: *Coming soon*
+**Additional Resources**:
+- [Understanding Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html) - The Rust Book
+- [References and Borrowing](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html)
+- [The Slice Type](https://doc.rust-lang.org/book/ch04-03-slices.html)
 
 ---
 
-### Week 12: Final Project Kickoff
-Introduction to final project and team formation
+### Week 11: Structuring Code and Data
+Modules, structs, enums, error handling, and collections
 
-**Slides**: *Project introduction session*
+**Slides**: [Week 11: Structuring Code and Data](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W11_Structuring_Code_and_Data.html)
 
-**Lab**: [Lab 12: Final Project Proposal](./labs/lab12/)
+**Lab**: [Lab 11: Student Management System](./labs/lab11/)
 
-**Notebook**: *Coming soon*
+**Interactive Exercises**: [Rust Structuring Exercises](./resources/lecture-notes/W11_Structuring_Code_and_Data_exercises.md)
 
-**Lecture Notes**: *Coming soon*
+**Lecture Notes**: [Week 11: Structuring Code and Data](./resources/lecture-notes/W11_Structuring_Code_and_Data_notes.md)
 
-**Additional Resources**: *Coming soon*
+**Additional Resources**:
+- [Packages, Crates, and Modules](https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html)
+- [Defining and Instantiating Structs](https://doc.rust-lang.org/book/ch05-01-defining-structs.html)
+- [Enums and Pattern Matching](https://doc.rust-lang.org/book/ch06-00-enums.html)
+- [Common Collections](https://doc.rust-lang.org/book/ch08-00-common-collections.html)
+
+---
+
+### Week 12: Generics, Traits, and Testing
+Generic types, trait system, and test-driven development
+
+**Slides**: [Week 12: Generics, Traits, and Testing](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W12_Generics_Traits_and_Testing.html)
+
+**Lab**: [Lab 12: Generic Stack with TDD](./labs/lab12/)
+
+**Interactive Exercises**: [Generics & Traits Exercises](./resources/lecture-notes/W12_Generics_Traits_and_Testing_exercises.md)
+
+**Lecture Notes**: [Week 12: Generics, Traits, and Testing](./resources/lecture-notes/W12_Generics_Traits_and_Testing_notes.md)
+
+**Additional Resources**:
+- [Generic Types, Traits, and Lifetimes](https://doc.rust-lang.org/book/ch10-00-generics.html)
+- [Writing Automated Tests](https://doc.rust-lang.org/book/ch11-00-testing.html)
+- [Advanced Traits](https://doc.rust-lang.org/book/ch19-03-advanced-traits.html)
 
 ---
 
