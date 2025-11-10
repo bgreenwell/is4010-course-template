@@ -223,39 +223,60 @@ Modules, structs, enums, error handling, and collections
 
 ---
 
-### Week 12: Generics, Traits, and Testing
-Generic types, trait system, and test-driven development
+### Week 12: Generics and Traits
+Generic types, trait system, and polymorphism in Rust
 
-**Slides**: [Week 12: Generics, Traits, and Testing](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W12_Generics_Traits_and_Testing.html)
+**Slides**: [Week 12: Generics and Traits](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W12_Generics_and_Traits.html)
 
-**Lab**: [Lab 12: Generic Stack with TDD](./labs/lab12/)
+**Lab**: [Lab 12: Generic Stack Implementation](./labs/lab12/)
 
-**Interactive Exercises**: [Generics & Traits Exercises](./resources/lecture-notes/W12_Generics_Traits_and_Testing_exercises.md)
+**Interactive Exercises**: [Generics & Traits Exercises](./resources/lecture-notes/W12_Generics_and_Traits_exercises.md)
 
-**Lecture Notes**: [Week 12: Generics, Traits, and Testing](./resources/lecture-notes/W12_Generics_Traits_and_Testing_notes.md)
+**Lecture Notes**: [Week 12: Generics and Traits](./resources/lecture-notes/W12_Generics_and_Traits_notes.md)
 
 **Additional Resources**:
 - [Generic Types, Traits, and Lifetimes](https://doc.rust-lang.org/book/ch10-00-generics.html)
-- [Writing Automated Tests](https://doc.rust-lang.org/book/ch11-00-testing.html)
 - [Advanced Traits](https://doc.rust-lang.org/book/ch19-03-advanced-traits.html)
+- [Trait Objects](https://doc.rust-lang.org/book/ch17-02-trait-objects.html)
 
 ---
 
-### Week 13: Final Project Workshop
-Collaborative work session and MVP check-ins
+### Week 13: Testing and Packaging
+Test-driven development, error handling, and building production-ready Rust applications
 
-**Project Work**: Focus on building your final application
+**Slides**: [Week 13: Testing and Packaging](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W13_Testing_and_Packaging.html)
 
-**Additional Resources**: *Coming soon*
+**Lab**: *Work session - apply testing and packaging to your final project*
+
+**Interactive Exercises**: [Testing & Packaging Exercises](./resources/lecture-notes/W13_Testing_and_Packaging_exercises.md)
+
+**Lecture Notes**: [Week 13: Testing and Packaging](./resources/lecture-notes/W13_Testing_and_Packaging_notes.md)
+
+**Additional Resources**:
+- [Writing Automated Tests](https://doc.rust-lang.org/book/ch11-00-testing.html)
+- [Error Handling](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
+- [The Cargo Book](https://doc.rust-lang.org/cargo/)
+- [Command Line Apps in Rust](https://rust-cli.github.io/book/)
 
 ---
 
-### Week 14: Final Project Polish
-Presentation dry-runs and peer feedback
+### Week 14: Publishing and Distribution
+Semantic versioning, crates.io publishing, GitHub releases, and multi-platform distribution
 
-**Project Work**: Refine and prepare presentations
+**Slides**: [Week 14: Publishing and Distribution](https://bgreenwell.github.io/is4010-instructor-materials/IS4010_W14_Publishing_and_Distribution.html)
 
-**Additional Resources**: *Coming soon*
+**Lab**: *Work session - publish and distribute your final project*
+
+**Interactive Exercises**: [Publishing & Distribution Exercises](./resources/lecture-notes/W14_Publishing_and_Distribution_exercises.md)
+
+**Lecture Notes**: [Week 14: Publishing and Distribution](./resources/lecture-notes/W14_Publishing_and_Distribution_notes.md)
+
+**Additional Resources**:
+- [Publishing on crates.io](https://doc.rust-lang.org/cargo/reference/publishing.html)
+- [Semantic Versioning](https://semver.org/)
+- [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github)
+- [GitHub Actions for Rust](https://github.com/actions-rs)
+- [Homebrew Formula Cookbook](https://docs.brew.sh/Formula-Cookbook)
 
 ---
 
