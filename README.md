@@ -1,3 +1,9 @@
+# ⚠️ DEPRECATED - Use [is4010-course](https://github.com/bgreenwell/is4010-course) Instead
+
+**This repository is no longer maintained.** See [DEPRECATED.md](DEPRECATED.md) for details.
+
+---
+
 # IS4010: AI-Enhanced Application Development
 
 ![Languages](https://img.shields.io/badge/languages-Python%20%7C%20Rust-blue.svg)
